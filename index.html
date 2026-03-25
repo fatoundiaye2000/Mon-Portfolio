@@ -360,14 +360,11 @@
         </div>
     </div>
 </section>
-            
-           
 
 
 
 
 
-    <!-- Section Projets -->
 <!-- Section Projets -->
 <section id="projets" class="section bg-dark">
     <div class="section-header">
@@ -376,8 +373,10 @@
         <p class="section-subtitle">Découvrez mes réalisations en stage et en formation</p>
     </div>
 
+    <!-- ══ GRILLE 1 : LES 2 STAGES ══ -->
     <div class="projets-grid">
-        <!-- Projet Stage -->
+
+        <!-- Stage 1 : KYSAD Group -->
         <div class="projet-column">
             <button class="projet-btn active" data-projet="stage">
                 <div class="btn-icon">
@@ -393,10 +392,8 @@
                 </div>
             </button>
 
-            <!-- Contenu Stage -->
             <div class="projet-content active" id="stage-content">
                 <div class="stage-container">
-                    <!-- En-tête du stage -->
                     <div class="stage-header">
                         <div class="company-logo">
                             <img src="images/kysad-logo.png" alt="Logo KYSAD Group">
@@ -407,60 +404,38 @@
                             <p class="stage-dates">30 Juin - 02 Août 2025</p>
                         </div>
                     </div>
-
-                    <!-- Description générale -->
                     <div class="stage-description">
                         <p>Participation au développement d'applications web dynamiques pour faciliter les démarches des étudiants sénégalais vers les universités internationales.</p>
                     </div>
-
-                    <!-- Missions réalisées -->
                     <div class="section-subsection">
                         <h4>Missions Réalisées</h4>
                         <div class="missions-grid">
-                            <!-- Mission 1 -->
                             <div class="mission-card">
-                                <div class="mission-icon">
-                                    <i class="fas fa-file-pdf"></i>
-                                </div>
+                                <div class="mission-icon"><i class="fas fa-file-pdf"></i></div>
                                 <h4>Automatisation PDF</h4>
                                 <p>Développement d'un script PHP pour générer automatiquement les dossiers de candidature au format PDF.</p>
                                 <div class="mission-tech">
-                                    <span>PHP</span>
-                                    <span>TCPDF</span>
-                                    <span>HTML/CSS</span>
+                                    <span>PHP</span><span>TCPDF</span><span>HTML/CSS</span>
                                 </div>
                             </div>
-
-                            <!-- Mission 2 -->
                             <div class="mission-card">
-                                <div class="mission-icon">
-                                    <i class="fas fa-database"></i>
-                                </div>
+                                <div class="mission-icon"><i class="fas fa-database"></i></div>
                                 <h4>Base de Données</h4>
                                 <p>Conception et implémentation d'une base MySQL pour le suivi des candidatures avec relations étudiants/universités.</p>
                                 <div class="mission-tech">
-                                    <span>MySQL</span>
-                                    <span>PDO</span>
-                                    <span>Normalisation</span>
+                                    <span>MySQL</span><span>PDO</span><span>Normalisation</span>
                                 </div>
                             </div>
-
-                            <!-- Mission 3 -->
                             <div class="mission-card">
-                                <div class="mission-icon">
-                                    <i class="fas fa-envelope"></i>
-                                </div>
+                                <div class="mission-icon"><i class="fas fa-envelope"></i></div>
                                 <h4>Correction des Emails</h4>
                                 <p>Résolution du bug critique d'envoi multiple d'emails avec système de verrouillage et journalisation.</p>
                                 <div class="mission-tech">
-                                    <span>PHPMailer</span>
-                                    <span>Logging</span>
+                                    <span>PHPMailer</span><span>Logging</span>
                                 </div>
                             </div>
                         </div>
                     </div>
-
-                    <!-- Résultats concrets -->
                     <div class="section-subsection">
                         <h4>Résultats Concrets</h4>
                         <div class="results-grid">
@@ -478,8 +453,6 @@
                             </div>
                         </div>
                     </div>
-
-                    <!-- Extraits de code -->
                     <div class="section-subsection">
                         <h4>Extraits de Code</h4>
                         <div class="code-examples">
@@ -488,7 +461,6 @@
                                 <button class="code-tab" data-tab="email-fix">Correction Email</button>
                                 <button class="code-tab" data-tab="db-query">Requête SQL</button>
                             </div>
-                            
                             <div class="code-content active" id="pdf-generation">
                                 <pre><code class="php">// Génération automatique des PDF de candidature
 function generateApplicationPDF($studentId, $universityId) {
@@ -516,7 +488,6 @@ function generateApplicationPDF($studentId, $universityId) {
     return $filename;
 }</code></pre>
                             </div>
-                            
                             <div class="code-content" id="email-fix">
                                 <pre><code class="php">// Système anti-doublon pour les emails
 function sendApplicationEmail($applicationId, $recipient) {
@@ -542,7 +513,6 @@ function sendApplicationEmail($applicationId, $recipient) {
     }
 }</code></pre>
                             </div>
-                            
                             <div class="code-content" id="db-query">
                                 <pre><code class="sql">-- Requête optimisée pour le suivi des candidatures
 SELECT 
@@ -569,195 +539,911 @@ LIMIT 50;</code></pre>
             </div>
         </div>
 
-
-        
-
- <!-- Projet École -->
+        <!-- Stage 2 : EventCulture -->
         <div class="projet-column">
-            <button class="projet-btn" data-projet="école">
+            <button class="projet-btn" data-projet="stage2">
                 <div class="btn-icon">
-                    <i class="fas fa-graduation-cap"></i>
+                    <i class="fas fa-briefcase"></i>
                 </div>
                 <div class="btn-content">
-                    <h3>Projet École</h3>
-                    <p>Application Événementielle Culturelle</p>
-                    <span class="btn-date">2 Projets : Backend + Frontend</span>
-               </div>
+                    <h3>2e Stage Professionnel</h3>
+                    <p>EventCulture / ActionCulture — Développeur & Testeur QA</p>
+                    <span class="btn-date">05 Jan – 13 Fév 2026 · 6 semaines</span>
+                </div>
                 <div class="btn-arrow">
                     <i class="fas fa-chevron-down"></i>
                 </div>
             </button>
 
-            <!-- Contenu Projet École COMPLET -->
-            <div class="projet-content" id="école-content">
-                <div class="project-container">
-                    
-            <!-- PROJET 1 : BACKEND SPRING BOOT -->
-            <div class="project-section">
-                <div class="project-header">
-                    <div class="project-badge">
-                        <i class="fab fa-java"></i>
-                        PROJET 1 - BACKEND SPRING BOOT
-                    </div>
-                    <h3>API REST pour Application Événementielle</h3>
-                    <p class="project-subtitle">Développement du backend avec Spring Boot, sécurité JWT et base MySQL</p>
-                    
-                    <div class="project-links">
-                        <a href="https://github.com/fatoundiaye2000/MonProjetBackEnd.git" class="github-link" target="_blank">
-                            <i class="fab fa-github"></i> Voir le code Backend sur GitHub
-                        </a>
-                    </div>
-                </div>
+            <div class="projet-content" id="stage2-content">
+                <div class="stage-container">
 
-
-                    <!-- Architecture Backend -->
-                <div class="section-subsection">
-                    <h4>🏗 Architecture du Backend</h4>
-                    <div class="project-overview">
-                        <div class="overview-text">
-                            <p>J'ai développé une API REST complète avec Spring Boot qui sert de fondation à l'application événementielle. L'architecture suit le pattern MVC et inclut un système de sécurité robuste.</p>
-                            
-                            <div class="key-features">
-                                <div class="feature">
-                                    <i class="fas fa-check-circle"></i>
-                                    <span>API REST avec endpoints documentés</span>
-                                </div>
-                                <div class="feature">
-                                    <i class="fas fa-check-circle"></i>
-                                    <span>Authentification JWT sécurisée</span>
-                                </div>
-                                <div class="feature">
-                                    <i class="fas fa-check-circle"></i>
-                                    <span>Base de données MySQL avec relations complexes</span>
-                                </div>
-                                <div class="feature">
-                                    <i class="fas fa-check-circle"></i>
-                                    <span>Validation des données et gestion des erreurs</span>
-                                </div>
+                    <div class="stage-header">
+                        <div class="company-logo">
+                            <div style="width:80px;height:80px;background:linear-gradient(135deg,#1a6b3c,#2ecc71);border-radius:16px;display:flex;align-items:center;justify-content:center;">
+                                <i class="fas fa-landmark" style="color:#fff;font-size:2rem;"></i>
                             </div>
                         </div>
-                                <div class="overview-image">
-                                <img src="images/project-screenshot.jpg" alt="Capture d'écran du projet">
-                            </div>
+                        <div class="stage-info">
+                            <h3>Stage Développeur Web & QA</h3>
+                            <p class="company-name">EventCulture / ActionCulture — Patrimoine culturel algérien</p>
+                            <p class="stage-dates">05 Janvier – 13 Février 2026 · 6 semaines · Tutrice : Souhila GUERFI</p>
                         </div>
                     </div>
 
-
-
-
-                    <!-- Stack Technique Backend -->
-                <div class="section-subsection">
-                    <h4>⚙ Stack Technique Backend</h4>
-                    <div class="tech-stack-grid">
-                        <div class="tech-stack-item">
-                            <div class="tech-icon">
-                                <i class="fab fa-java"></i>
-                            </div>
-                            <div class="tech-info">
-                                <h5>Java </h5>
-                                <p>Langage principal avec les dernières features</p>
-                            </div>
-                        </div>
-                        <div class="tech-stack-item">
-                            <div class="tech-icon">
-                                <i class="fas fa-leaf"></i>
-                            </div>
-                            <div class="tech-info">
-                                <h5>Spring Boot </h5>
-                                <p>Framework principal avec auto-configuration</p>
-                            </div>
-                        </div>
-                        <div class="tech-stack-item">
-                            <div class="tech-icon">
-                                <i class="fas fa-database"></i>
-                            </div>
-                            <div class="tech-info">
-                                <h5>MySQL</h5>
-                                <p>Base de données relationnelle</p>
-                            </div>
-                        </div>
-                        <div class="tech-stack-item">
-                            <div class="tech-icon">
-                                <i class="fas fa-shield-alt"></i>
-                            </div>
-                            <div class="tech-info">
-                                <h5>Spring Security</h5>
-                                <p>Authentification et autorisation</p>
-                            </div>
-                        </div>
-                        <div class="tech-stack-item">
-                            <div class="tech-icon">
-                                <i class="fas fa-code"></i>
-                            </div>
-                            <div class="tech-info">
-                                <h5>JPA/Hibernate</h5>
-                                <p>ORM pour la persistance des données</p>
-                            </div>
-                        </div>
-                        <div class="tech-stack-item">
-                            <div class="tech-icon">
-                                <i class="fas fa-check-circle"></i>
-                            </div>
-                            <div class="tech-info">
-                                <h5>JUnit </h5>
-                                <p>Tests unitaires et d'intégration</p>
-                            </div>
-                        </div>
+                    <div class="stage-description">
+                        <p>
+                            Intégration dans l'équipe de développement d'<strong>EventCulture</strong>, une plateforme web complète
+                            dédiée à la gestion et à la valorisation du patrimoine culturel algérien (œuvres d'art, événements,
+                            artisanat, articles). Ma mission principale était d'assurer la <strong>qualité logicielle</strong> de
+                            l'application à travers des tests manuels, des tests automatisés, du débogage et de la documentation
+                            technique. Stack utilisée : <strong>Node.js · Express.js · Sequelize · MySQL · Redis · JWT</strong>
+                            côté backend et <strong>React · TypeScript · Vite · Tailwind CSS</strong> côté frontend.
+                        </p>
                     </div>
-                </div>
 
-                
-
-                    <!-- Modélisation de données -->
                     <div class="section-subsection">
-                        <h4>Modélisation des Données</h4>
-                        <div class="model-content">
-                            <div class="uml-diagram">
-                                <img src="images/uml-diagram.png" alt="Diagramme UML des entités">
-                                <p class="diagram-caption">Diagramme de classes simplifié</p>
+                        <h4>Résultats Globaux du Stage</h4>
+                        <div class="results-grid">
+                            <div class="result-item"><div class="result-number">14/14</div><div class="result-text">Tests API backend réussis (100 %)</div></div>
+                            <div class="result-item"><div class="result-number">43</div><div class="result-text">Tests frontend UI réalisés</div></div>
+                            <div class="result-item"><div class="result-number">5</div><div class="result-text">Bugs critiques identifiés et corrigés</div></div>
+                            <div class="result-item"><div class="result-number">95,7%</div><div class="result-text">Taux de réussite tests Jest (45/47)</div></div>
+                            <div class="result-item"><div class="result-number">87,3%</div><div class="result-text">Couverture de code atteinte</div></div>
+                            <div class="result-item"><div class="result-number">27</div><div class="result-text">Tests de création d'articles (2 modes)</div></div>
+                        </div>
+                    </div>
+
+                    <!-- MISSION 1 -->
+                    <div class="section-subsection">
+                        <h4>
+                            <span style="display:inline-flex;align-items:center;gap:10px;">
+                                <span style="background:linear-gradient(135deg,#1a6b3c,#2ecc71);color:#fff;border-radius:50%;width:32px;height:32px;display:inline-flex;align-items:center;justify-content:center;font-size:0.85rem;font-weight:700;">1</span>
+                                Mission 1 — Prise en Main du Projet
+                            </span>
+                        </h4>
+                        <div class="project-overview">
+                            <div class="overview-text">
+                                <p>La première semaine a été consacrée à la découverte et à la configuration complète de l'environnement de développement. Avant de pouvoir tester ou corriger quoi que ce soit, il était indispensable de comprendre l'architecture globale du projet et de mettre en place un espace de travail isolé.</p>
+                                <div class="key-features">
+                                    <div class="feature"><i class="fas fa-check-circle"></i><span><strong>Clonage du dépôt GitHub</strong> et création d'une branche personnelle <code>fatouNdiaye</code> pour isoler mes modifications sans impacter la branche principale</span></div>
+                                    <div class="feature"><i class="fas fa-check-circle"></i><span><strong>Installation des dépendances</strong> Node.js avec <code>npm install</code> pour le backend et le frontend séparément</span></div>
+                                    <div class="feature"><i class="fas fa-check-circle"></i><span><strong>Configuration de la base de données MySQL</strong> (<code>actionculture_dz</code>) via MAMP, import du schéma SQL et des données de seed (15 œuvres : livres, films, albums)</span></div>
+                                    <div class="feature"><i class="fas fa-check-circle"></i><span><strong>Lancement des serveurs locaux</strong> : backend sur <code>localhost:3001</code> et frontend sur <code>localhost:8080</code></span></div>
+                                    <div class="feature"><i class="fas fa-check-circle"></i><span><strong>Exploration de l'architecture full-stack</strong> : lecture des fichiers de configuration, des routes Express, des modèles Sequelize et des composants React/TypeScript</span></div>
+                                    <div class="feature"><i class="fas fa-check-circle"></i><span><strong>Compréhension du système d'authentification JWT</strong> : obtention du token via login admin, durée d'expiration 900s, utilisation dans les headers Authorization</span></div>
+                                </div>
                             </div>
+                        </div>
+                        <div class="architecture-grid" style="margin-top:20px;">
+                            <div class="arch-layer">
+                                <div class="layer-icon backend"><i class="fab fa-node-js"></i></div>
+                                <h5>Backend (port 3001)</h5>
+                                <ul><li>Node.js + Express.js</li><li>Sequelize ORM + MySQL</li><li>Redis (cache sessions)</li><li>JWT (authentification)</li></ul>
+                            </div>
+                            <div class="arch-layer">
+                                <div class="layer-icon frontend"><i class="fab fa-react"></i></div>
+                                <h5>Frontend (port 8080)</h5>
+                                <ul><li>React + TypeScript</li><li>Vite (bundler rapide)</li><li>Tailwind CSS</li><li>i18n multilingue (fr/ar/ber)</li></ul>
+                            </div>
+                            <div class="arch-layer">
+                                <div class="layer-icon database"><i class="fas fa-database"></i></div>
+                                <h5>Base de données</h5>
+                                <ul><li>MySQL via MAMP</li><li>DB : actionculture_dz</li><li>15 œuvres en seed</li><li>Types : livres, films, albums</li></ul>
+                            </div>
+                        </div>
+                        <div class="mission-tech" style="margin-top:16px;">
+                            <span>Git</span><span>Node.js</span><span>npm</span><span>MySQL</span><span>MAMP</span><span>JWT</span>
+                        </div>
+                    </div>
 
-                          <h3>Documentation Technique projet backend</h3>
-                    <p>Consultez la documentation pour mon projet backend (→) Spring boot.</p>
-                    <a href="images/Doc_ProjetSLAM1.pdf" class="btn btn-primary"></a>
-                        <i class="fas fa-download"></i>  Consulter
-                    </a>
+                    <!-- MISSION 2 -->
+                    <div class="section-subsection">
+                        <h4>
+                            <span style="display:inline-flex;align-items:center;gap:10px;">
+                                <span style="background:linear-gradient(135deg,#1a6b3c,#2ecc71);color:#fff;border-radius:50%;width:32px;height:32px;display:inline-flex;align-items:center;justify-content:center;font-size:0.85rem;font-weight:700;">2</span>
+                                Mission 2 — Tests Manuels API Backend (Module Œuvres)
+                            </span>
+                        </h4>
+                        <div class="project-overview">
+                            <div class="overview-text">
+                                <p>J'ai conçu et exécuté une campagne exhaustive de tests manuels sur l'API REST du module Œuvres en utilisant <strong>Postman</strong> et <strong>cURL</strong>. Chaque endpoint a été testé selon plusieurs scénarios : cas nominaux, cas limites et cas d'erreur. Le compte administrateur utilisé était <code>admin@actionculture.dz</code> / <code>admin123</code>.</p>
+                            </div>
+                        </div>
+                        <div class="comparison-table-container" style="margin-top:18px;">
+                            <h5 style="margin-bottom:12px;">📋 Campagne de Tests — 14/14 réussis (100 %)</h5>
+                            <table class="comparison-table">
+                                <thead>
+                                    <tr><th>ID Test</th><th>Type</th><th>Description</th><th>Résultat attendu</th><th>Statut</th></tr>
+                                </thead>
+                                <tbody>
+                                    <tr><td><strong>T-001</strong></td><td>GET</td><td>Liste des œuvres paginée</td><td>200 OK · data[], total, page</td><td style="color:#2ecc71;font-weight:700;">✅ PASS</td></tr>
+                                    <tr><td><strong>T-002</strong></td><td>GET</td><td>Pagination (limit=5, page=2)</td><td>200 OK · 5 résultats page 2</td><td style="color:#2ecc71;font-weight:700;">✅ PASS</td></tr>
+                                    <tr><td><strong>T-003</strong></td><td>GET</td><td>Filtre par type (id_type=13)</td><td>200 OK · uniquement les livres</td><td style="color:#2ecc71;font-weight:700;">✅ PASS</td></tr>
+                                    <tr><td><strong>T-004</strong></td><td>GET</td><td>Recherche textuelle (?search=…)</td><td>200 OK · résultats filtrés</td><td style="color:#2ecc71;font-weight:700;">✅ PASS</td></tr>
+                                    <tr><td><strong>T-005</strong></td><td>GET</td><td>Détail œuvre (ID valide)</td><td>200 OK · objet complet</td><td style="color:#2ecc71;font-weight:700;">✅ PASS</td></tr>
+                                    <tr><td><strong>T-006</strong></td><td>GET</td><td>Détail œuvre (ID inexistant)</td><td>404 Not Found</td><td style="color:#2ecc71;font-weight:700;">✅ PASS</td></tr>
+                                    <tr><td><strong>T-007</strong></td><td>POST</td><td>Création œuvre complète</td><td>201 Created · objet créé</td><td style="color:#2ecc71;font-weight:700;">✅ PASS</td></tr>
+                                    <tr><td><strong>T-008</strong></td><td>POST</td><td>Validation champs manquants</td><td>400 Bad Request · message erreur</td><td style="color:#2ecc71;font-weight:700;">✅ PASS</td></tr>
+                                    <tr><td><strong>T-009</strong></td><td>POST</td><td>Upload image valide</td><td>201 Created · vignette auto-générée</td><td style="color:#2ecc71;font-weight:700;">✅ PASS</td></tr>
+                                    <tr><td><strong>T-010</strong></td><td>POST</td><td>Rejet fichier .exe</td><td>400 Bad Request · type refusé</td><td style="color:#2ecc71;font-weight:700;">✅ PASS</td></tr>
+                                    <tr><td><strong>T-011</strong></td><td>PUT</td><td>Modification titre et description</td><td>200 OK · persistance vérifiée</td><td style="color:#2ecc71;font-weight:700;">✅ PASS</td></tr>
+                                    <tr><td><strong>T-012</strong></td><td>DELETE</td><td>Suppression + cascade (médias, commentaires, favoris)</td><td>200 OK · données liées supprimées</td><td style="color:#2ecc71;font-weight:700;">✅ PASS</td></tr>
+                                    <tr><td><strong>T-013</strong></td><td>Sécurité</td><td>Requête sans token JWT</td><td>401 Unauthorized</td><td style="color:#2ecc71;font-weight:700;">✅ PASS</td></tr>
+                                    <tr><td><strong>T-014</strong></td><td>Sécurité</td><td>Token JWT invalide/expiré</td><td>401 Unauthorized</td><td style="color:#2ecc71;font-weight:700;">✅ PASS</td></tr>
+                                </tbody>
+                            </table>
+                        </div>
+                        <div class="code-examples" style="margin-top:20px;">
+                            <div class="code-tabs">
+                                <button class="code-tab active" data-tab="m2-auth">Authentification JWT</button>
+                                <button class="code-tab" data-tab="m2-get">Tests GET</button>
+                                <button class="code-tab" data-tab="m2-post">Tests POST/DELETE</button>
+                            </div>
+                            <div class="code-content active" id="m2-auth">
+                                <pre><code class="bash"># Étape 1 : Obtenir le token JWT
+curl -X POST http://localhost:3001/api/users/login \
+  -H "Content-Type: application/json" \
+  -d '{
+    "email": "admin@actionculture.dz",
+    "password": "admin123"
+  }'
+
+# Réponse :
+# {
+#   "token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9...",
+#   "user": { "id_user": 2, "role": "Administrateur" },
+#   "expiresIn": 900
+# }
+
+# Étape 2 : Stocker le token pour les requêtes suivantes
+TOKEN="eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9..."
+
+# Vérification sécurité — sans token → doit renvoyer 401
+curl -X GET http://localhost:3001/api/oeuvres/51
+# → 401 Unauthorized ✅
+
+# Vérification sécurité — token invalide → doit renvoyer 401
+curl -X GET http://localhost:3001/api/oeuvres/51 \
+  -H "Authorization: Bearer token_invalide_test"
+# → 401 Unauthorized ✅</code></pre>
+                            </div>
+                            <div class="code-content" id="m2-get">
+                                <pre><code class="bash"># T-001 : Liste paginée des œuvres
+curl -X GET "http://localhost:3001/api/oeuvres?page=1&limit=10" \
+  -H "Authorization: Bearer $TOKEN"
+# → 200 OK { data: [...], total: 15, page: 1, limit: 10 } ✅
+
+# T-002 : Pagination — page 2 avec 5 résultats
+curl -X GET "http://localhost:3001/api/oeuvres?page=2&limit=5" \
+  -H "Authorization: Bearer $TOKEN"
+# → 200 OK { data: [5 items], page: 2 } ✅
+
+# T-003 : Filtre par type (id_type=13 = Livres)
+curl -X GET "http://localhost:3001/api/oeuvres?id_type=13" \
+  -H "Authorization: Bearer $TOKEN"
+# → 200 OK { data: [livres uniquement] } ✅
+
+# T-004 : Recherche textuelle
+curl -X GET "http://localhost:3001/api/oeuvres?search=calligraphie" \
+  -H "Authorization: Bearer $TOKEN"
+# → 200 OK { data: [résultats contenant "calligraphie"] } ✅
+
+# T-005 : Détail d'une œuvre (ID valide = 51)
+curl -X GET "http://localhost:3001/api/oeuvres/51" \
+  -H "Authorization: Bearer $TOKEN"
+# → 200 OK { id_oeuvre: 51, titre: {...}, medias: [...] } ✅
+
+# T-006 : ID inexistant → doit retourner 404
+curl -X GET "http://localhost:3001/api/oeuvres/9999" \
+  -H "Authorization: Bearer $TOKEN"
+# → 404 Not Found { message: "Œuvre non trouvée" } ✅</code></pre>
+                            </div>
+                            <div class="code-content" id="m2-post">
+                                <pre><code class="bash"># T-007 : Création d'une œuvre complète → 201
+curl -X POST http://localhost:3001/api/oeuvres \
+  -H "Authorization: Bearer $TOKEN" \
+  -H "Content-Type: application/json" \
+  -d '{
+    "titre": { "fr": "Test Œuvre", "ar": "اختبار العمل" },
+    "description": { "fr": "Description test" },
+    "id_type": 13,
+    "annee": 2026
+  }'
+# → 201 Created { id_oeuvre: 52, titre: {...} } ✅
+
+# T-008 : Champs obligatoires manquants → 400
+curl -X POST http://localhost:3001/api/oeuvres \
+  -H "Authorization: Bearer $TOKEN" \
+  -H "Content-Type: application/json" \
+  -d '{ "annee": 2026 }'
+# → 400 Bad Request { errors: ["titre est requis", "id_type est requis"] } ✅
+
+# T-009 : Upload image valide → 201 + vignette auto-générée
+curl -X POST http://localhost:3001/api/oeuvres/51/medias \
+  -H "Authorization: Bearer $TOKEN" \
+  -F "file=@test-image.jpg" \
+  -F "is_Principale=true"
+# → 201 Created { url: "uploads/test-image.jpg", thumbnail: "thumb_test-image.jpg" } ✅
+
+# T-010 : Rejet fichier .exe → 400
+curl -X POST http://localhost:3001/api/oeuvres/51/medias \
+  -H "Authorization: Bearer $TOKEN" \
+  -F "file=@virus.exe"
+# → 400 Bad Request { message: "Type de fichier non autorisé" } ✅
+
+# T-012 : Suppression avec cascade
+curl -X DELETE http://localhost:3001/api/oeuvres/52 \
+  -H "Authorization: Bearer $TOKEN"
+# → 200 OK — médias, commentaires et favoris supprimés en cascade ✅</code></pre>
+                            </div>
+                        </div>
+                        <div class="mission-tech" style="margin-top:16px;">
+                            <span>Postman</span><span>cURL</span><span>JWT</span><span>REST API</span><span>HTTP Status Codes</span>
+                        </div>
+                    </div>
+
+                    <!-- MISSION 3 -->
+                    <div class="section-subsection">
+                        <h4>
+                            <span style="display:inline-flex;align-items:center;gap:10px;">
+                                <span style="background:linear-gradient(135deg,#1a6b3c,#2ecc71);color:#fff;border-radius:50%;width:32px;height:32px;display:inline-flex;align-items:center;justify-content:center;font-size:0.85rem;font-weight:700;">3</span>
+                                Mission 3 — Rédaction de Guides de Test Professionnels
+                            </span>
+                        </h4>
+                        <div class="project-overview">
+                            <div class="overview-text">
+                                <p>Pour que n'importe quel développeur puisse reproduire mes tests et comprendre la démarche qualité, j'ai rédigé une documentation technique complète et structurée. Cette documentation constitue un <strong>référentiel de test réutilisable</strong> pour toute l'équipe.</p>
+                            </div>
+                        </div>
+                        <div class="features-grid" style="margin-top:18px;">
+                            <div class="feature-card">
+                                <div class="feature-icon auth"><i class="fas fa-rocket"></i></div>
+                                <h5>DEMARRAGE_RAPIDE.md</h5>
+                                <ul><li>Prérequis (Node.js, Postman, MAMP)</li><li>Installation en 5 étapes chrono</li><li>Commandes de lancement rapide</li><li>Vérification que tout fonctionne</li></ul>
+                            </div>
+                            <div class="feature-card">
+                                <div class="feature-icon event"><i class="fas fa-play-circle"></i></div>
+                                <h5>GUIDE_EXECUTION.md</h5>
+                                <ul><li>Ordre d'exécution des tests</li><li>Données de test à utiliser</li><li>Interprétation des résultats</li><li>Que faire en cas d'échec</li></ul>
+                            </div>
+                            <div class="feature-card">
+                                <div class="feature-icon reservation"><i class="fas fa-paper-plane"></i></div>
+                                <h5>GUIDE_POSTMAN.md</h5>
+                                <ul><li>Import de la collection JSON</li><li>Configuration des variables d'environnement</li><li>Gestion automatique du token JWT</li><li>20+ requêtes prêtes à l'emploi</li></ul>
+                            </div>
+                            <div class="feature-card">
+                                <div class="feature-icon auth"><i class="fas fa-list-alt"></i></div>
+                                <h5>CAS_DE_TEST_DETAIL.md</h5>
+                                <ul><li>17 cas de test documentés</li><li>Préconditions, étapes, résultat attendu</li><li>Captures d'écran des réponses</li><li>Critères d'acceptation clairs</li></ul>
+                            </div>
+                            <div class="feature-card">
+                                <div class="feature-icon event"><i class="fas fa-check-square"></i></div>
+                                <h5>checklist.md + REPORT_TEMPLATE.md</h5>
+                                <ul><li>Checklist de validation avant livraison</li><li>Template standardisé pour les rapports</li><li>Dossier results/ avec résultats individuels</li><li>SUMMARY.md récapitulatif global</li></ul>
+                            </div>
+                            <div class="feature-card">
+                                <div class="feature-icon reservation"><i class="fas fa-code"></i></div>
+                                <h5>postman-collection-oeuvres.json</h5>
+                                <ul><li>Collection Postman exportée et versionnée</li><li>Variables d'environnement intégrées</li><li>Scripts de test automatiques (pre-request)</li><li>Importable en 1 clic par l'équipe</li></ul>
+                            </div>
+                        </div>
+                        <div class="components-structure" style="margin-top:20px;">
+                            <div class="components-tree">
+                                <h5>📁 Structure complète de la documentation :</h5>
+                                <pre>
+docs/tests/manuals/oeuvre/
+├── README.md
+├── INDEX.md
+├── DEMARRAGE_RAPIDE.md
+├── GUIDE_EXECUTION.md
+├── GUIDE_POSTMAN.md
+├── GUIDE_TESTS_FRONTEND_COMPLET.md
+├── CAS_DE_TEST_DETAIL.md
+├── checklist.md
+├── REPORT_TEMPLATE.md
+├── PORTFOLIO.md
+├── postman-collection-oeuvres.json
+└── results/
+    ├── T-OEUVRE-001-get-liste.md
+    ├── T-OEUVRE-002-pagination.md
+    └── SUMMARY.md</pre>
+                            </div>
+                        </div>
+                        <div class="mission-tech" style="margin-top:16px;">
+                            <span>Markdown</span><span>Postman Collection JSON</span><span>Git</span><span>Documentation technique</span>
+                        </div>
+                    </div>
+
+                    <!-- MISSION 4 -->
+                    <div class="section-subsection">
+                        <h4>
+                            <span style="display:inline-flex;align-items:center;gap:10px;">
+                                <span style="background:linear-gradient(135deg,#1a6b3c,#2ecc71);color:#fff;border-radius:50%;width:32px;height:32px;display:inline-flex;align-items:center;justify-content:center;font-size:0.85rem;font-weight:700;">4</span>
+                                Mission 4 — Tests Manuels Frontend (Interface Utilisateur)
+                            </span>
+                        </h4>
+                        <div class="project-overview">
+                            <div class="overview-text">
+                                <p>J'ai réalisé une campagne complète de <strong>43 tests UI</strong> sur l'interface React, en utilisant <strong>Chrome et Firefox avec les DevTools</strong> (F12). Les tests couvraient 10 groupes fonctionnels, de l'affichage de la liste jusqu'aux fonctionnalités avancées comme le multilingue et le responsive design.</p>
+                            </div>
+                        </div>
+                        <div class="comparison-table-container" style="margin-top:18px;">
+                            <h5 style="margin-bottom:12px;">📋 Groupes de Tests Frontend — 43 tests au total</h5>
+                            <table class="comparison-table">
+                                <thead>
+                                    <tr><th>Groupe</th><th>Fonctionnalité</th><th>Nb Tests</th><th>Ce qui a été vérifié</th></tr>
+                                </thead>
+                                <tbody>
+                                    <tr><td><strong>G-01</strong></td><td>Affichage liste</td><td>3 tests</td><td>Chargement page, vue grille/liste, design et mise en page</td></tr>
+                                    <tr><td><strong>G-02</strong></td><td>Détail œuvre</td><td>4 tests</td><td>Ouverture fiche, champs complets, lecteur média, navigation retour</td></tr>
+                                    <tr><td><strong>G-03</strong></td><td>Pagination et filtres</td><td>4 tests</td><td>Pagination fonctionnelle, filtre par type, filtre par langue, recherche texte</td></tr>
+                                    <tr><td><strong>G-04</strong></td><td>Création œuvre</td><td>4 tests</td><td>Bouton créer visible, formulaire complet, soumission réussie, messages de validation</td></tr>
+                                    <tr><td><strong>G-05</strong></td><td>Modification</td><td>3 tests</td><td>Bouton modifier, formulaire pré-rempli avec données existantes, sauvegarde</td></tr>
+                                    <tr><td><strong>G-06</strong></td><td>Upload média</td><td>4 tests</td><td>Section upload visible, image valide acceptée, fichier invalide rejeté, galerie</td></tr>
+                                    <tr><td><strong>G-07</strong></td><td>Suppression</td><td>3 tests</td><td>Bouton visible (admin), boîte de confirmation, suppression effective</td></tr>
+                                    <tr><td><strong>G-08</strong></td><td>Sécurité / Permissions</td><td>3 tests</td><td>Utilisateurs non authentifiés, non-créateur, rôle admin uniquement</td></tr>
+                                    <tr><td><strong>G-09</strong></td><td>Responsive / UX</td><td>5 tests</td><td>Desktop 1920px, tablette 768px, mobile 375px, performance, accessibilité</td></tr>
+                                    <tr><td><strong>G-10</strong></td><td>Intégrations</td><td>5 tests</td><td>Favoris, commentaires, notation, partage, sélecteur langue i18n (fr/ar/tamazight)</td></tr>
+                                </tbody>
+                            </table>
+                        </div>
+                        <div class="mission-tech" style="margin-top:16px;">
+                            <span>Chrome DevTools</span><span>Firefox</span><span>Responsive Design</span><span>i18n</span><span>Tests UI</span>
+                        </div>
+                    </div>
+
+                    <!-- MISSION 5 -->
+                    <div class="section-subsection">
+                        <h4>
+                            <span style="display:inline-flex;align-items:center;gap:10px;">
+                                <span style="background:linear-gradient(135deg,#1a6b3c,#2ecc71);color:#fff;border-radius:50%;width:32px;height:32px;display:inline-flex;align-items:center;justify-content:center;font-size:0.85rem;font-weight:700;">5</span>
+                                Mission 5 — Diagnostic et Correction de Bugs Backend
+                            </span>
+                        </h4>
+                        <div class="project-overview">
+                            <div class="overview-text">
+                                <p>Lors des tests, j'ai identifié <strong>5 bugs critiques</strong> bloquant le bon fonctionnement de l'API. Pour chacun, j'ai analysé les logs, retracé la cause racine dans le code source, proposé et appliqué une correction, puis vérifié le bon comportement après correctif. L'ensemble a été consigné dans un <strong>rapport détaillé avant/après</strong>.</p>
+                            </div>
+                        </div>
+                        <div class="comparison-table-container" style="margin-top:18px;">
+                            <h5 style="margin-bottom:12px;">🐛 5 Bugs Identifiés et Corrigés</h5>
+                            <table class="comparison-table">
+                                <thead>
+                                    <tr><th>#</th><th>Problème</th><th>Fichier modifié</th><th>Erreur avant</th><th>Résultat après</th><th>Statut</th></tr>
+                                </thead>
+                                <tbody>
+                                    <tr><td><strong>BUG-1</strong></td><td>Colonne <code>is_principal</code> inexistante en base</td><td>OeuvreController.js (l.264, 268)</td><td>500 — 34 330 ms</td><td>200 — 45 200 ms</td><td style="color:#2ecc71;font-weight:700;">✅ Résolu</td></tr>
+                                    <tr><td><strong>BUG-2</strong></td><td>Route <code>/api/evenements/oeuvre/:id</code> manquante</td><td>evenementRoutes.js</td><td>404 Not Found</td><td>200 OK</td><td style="color:#2ecc71;font-weight:700;">✅ Résolu</td></tr>
+                                    <tr><td><strong>BUG-3</strong></td><td>Validation trop stricte sur <code>/artisanat/search</code></td><td>artisanatRoutes.js</td><td>400 Bad Request</td><td>304 OK</td><td style="color:#2ecc71;font-weight:700;">✅ Résolu</td></tr>
+                                    <tr><td><strong>BUG-4</strong></td><td>Description affiche <code>[object Object]</code></td><td>Composant React frontend</td><td>Affichage [object Object]</td><td>Texte correct par langue</td><td style="color:#f39c12;font-weight:700;">⚠ Partiel</td></tr>
+                                    <tr><td><strong>BUG-5</strong></td><td>SequelizeEagerLoadingError dans MetadataController</td><td>MetadataController.js</td><td>500 — Eager loading error</td><td>200 OK</td><td style="color:#2ecc71;font-weight:700;">✅ Résolu</td></tr>
+                                </tbody>
+                            </table>
+                        </div>
+                        <div class="code-examples" style="margin-top:20px;">
+                            <div class="code-tabs">
+                                <button class="code-tab active" data-tab="m5-bug1">BUG-1 : Colonne SQL</button>
+                                <button class="code-tab" data-tab="m5-bug2">BUG-2 : Route manquante</button>
+                                <button class="code-tab" data-tab="m5-bug35">BUG-3 & 5</button>
+                            </div>
+                            <div class="code-content active" id="m5-bug1">
+                                <pre><code class="javascript">// ══ BUG-1 : Incohérence nom de colonne MySQL ══
+// Log avant correction :
+// GET /api/oeuvres/51/medias → 500 34.330ms
+// Error: Unknown column 'is_principal' in 'field list'
+
+// ─── AVANT (OeuvreController.js lignes 264 & 268) ───
+await OeuvreMedia.update(
+  { is_principal: false },    // ❌ colonne inexistante en base MySQL
+  { where: { id_oeuvre: id } }
+);
+await OeuvreMedia.update(
+  { is_principal: true },     // ❌ même erreur
+  { where: { id_media: mediaId } }
+);
+
+// ─── APRÈS (correction appliquée) ───
+await OeuvreMedia.update(
+  { is_Principale: false },   // ✅ correspond exactement au schéma MySQL
+  { where: { id_oeuvre: id } }
+);
+await OeuvreMedia.update(
+  { is_Principale: true },    // ✅
+  { where: { id_media: mediaId } }
+);
+
+// Log après correction :
+// GET /api/oeuvres/51/medias → 200 45.200ms ✅</code></pre>
+                            </div>
+                            <div class="code-content" id="m5-bug2">
+                                <pre><code class="javascript">// ══ BUG-2 : Route manquante → 404 ══
+// Problème : /:id capturait le mot "oeuvre" comme paramètre
+// Log : GET /api/evenements/oeuvre/51 → 404
+
+// ─── AVANT (evenementRoutes.js) ───
+router.get('/:id', EvenementController.getById);
+// La route cherchait un événement avec id = "oeuvre" → 404
+
+// ─── APRÈS : nouvelle route ajoutée AVANT /:id ───
+router.get('/oeuvre/:id', EvenementController.getByOeuvreId); // ✅ priorité
+router.get('/:id',        EvenementController.getById);
+
+// Nouveau contrôleur dans EvenementController.js :
+exports.getByOeuvreId = async (req, res) => {
+  try {
+    const { id } = req.params;
+    const evenements = await Evenement.findAll({
+      where: { id_oeuvre: id },
+      include: [{ model: TypeEvenement }, { model: Lieu }]
+    });
+    res.json({ data: evenements, total: evenements.length });
+  } catch (error) {
+    res.status(500).json({ message: error.message });
+  }
+};
+
+// Log après correction :
+// GET /api/evenements/oeuvre/51 → 200 ✅</code></pre>
+                            </div>
+                            <div class="code-content" id="m5-bug35">
+                                <pre><code class="javascript">// ══ BUG-3 : Validation trop stricte ══
+// Log : GET /api/artisanat/search?limit=6 → 400
+// Cause : le validator exigeait le paramètre 'q' même pour une recherche vide
+
+// ─── AVANT (artisanatRoutes.js) ───
+router.get('/search', [
+  query('q').notEmpty().withMessage('Le paramètre q est requis'), // ❌
+  validationMiddleware
+], ArtisanatController.search);
+
+// ─── APRÈS ─── (validation supprimée, géré dans le contrôleur)
+router.get('/search', ArtisanatController.search); // ✅
+// Log après : GET /api/artisanat/search?limit=6 → 304 ✅
+
+// ══ BUG-5 : SequelizeEagerLoadingError ══
+// Erreur : Association "TypeOeuvre" n'existe pas dans "Media"
+// Cause : include imbriqué incorrect dans MetadataController
+
+// ─── AVANT ───
+const metadata = await TypeOeuvre.findAll({
+  include: [{ model: Media, include: [{ model: TypeOeuvre }] }] // ❌ circulaire
+});
+
+// ─── APRÈS : requêtes séparées ───
+const typeOeuvres = await TypeOeuvre.findAll();
+const medias      = await Media.findAll();
+// Fusion en JavaScript → pas d'eager loading problématique ✅</code></pre>
+                            </div>
+                        </div>
+                        <div class="mission-tech" style="margin-top:16px;">
+                            <span>Node.js</span><span>Express.js</span><span>Sequelize</span><span>MySQL</span><span>Débogage</span><span>Logs</span>
+                        </div>
+                    </div>
+
+                    <!-- MISSION 6 & 7 -->
+                    <div class="section-subsection">
+                        <h4>
+                            <span style="display:inline-flex;align-items:center;gap:10px;">
+                                <span style="background:linear-gradient(135deg,#1a6b3c,#2ecc71);color:#fff;border-radius:50%;width:32px;height:32px;display:inline-flex;align-items:center;justify-content:center;font-size:0.85rem;font-weight:700;">6</span>
+                                Mission 6 & 7 — Création d'Articles Tests &amp; Validation des Modes d'Édition
+                            </span>
+                        </h4>
+                        <div class="project-overview">
+                            <div class="overview-text">
+                                <p>Pour valider les fonctionnalités de publication de contenu, j'ai conçu et créé <strong>2 articles culturels algériens complets</strong> en utilisant les deux modes d'édition disponibles sur la plateforme. Les données de test étaient réalistes, multilingues (français, arabe, anglais, tamazight) et culturellement pertinentes.</p>
+                            </div>
+                        </div>
+                        <div class="content-box" style="margin-top:20px;">
+                            <h4>📰 Article Test 1 — Formulaire Classique (10 tests)</h4>
+                            <p><strong>Titre :</strong> "La calligraphie arabe : un art millénaire revisité"</p>
+                            <div class="comparison-table-container" style="margin-top:12px;">
+                                <table class="comparison-table">
+                                    <thead><tr><th>Élément</th><th>Contenu créé</th></tr></thead>
+                                    <tbody>
+                                        <tr><td><strong>Titre multilingue</strong></td><td>🇫🇷 Français · 🇩🇿 Arabe · 🇬🇧 Anglais · ⵣ Tamazight (latin + tifinagh)</td></tr>
+                                        <tr><td><strong>Description</strong></td><td>Texte 200-500 mots par langue sur l'art de la calligraphie algérienne</td></tr>
+                                        <tr><td><strong>Auteur</strong></td><td>Karim Hadjeres — Source : ActionCulture Magazine</td></tr>
+                                        <tr><td><strong>URL canonique</strong></td><td>https://actionculture.dz/articles/calligraphie-arabe-2026</td></tr>
+                                        <tr><td><strong>Contributeur créé</strong></td><td>Hamza Messaoud (Illustrateur) — profil complet avec biographie</td></tr>
+                                        <tr><td><strong>Éditeur créé</strong></td><td>ActionCulture Press — type, site web, email, adresse, année création</td></tr>
+                                        <tr><td><strong>Tags</strong></td><td>Calligraphie · Art Arabe · Patrimoine Algérien · Art Contemporain · Algérie (7 tags)</td></tr>
+                                        <tr><td><strong>Médias</strong></td><td>3 images avec descriptions : principale, atelier, détail de lettre arabe</td></tr>
+                                    </tbody>
+                                </table>
+                            </div>
+                        </div>
+                        <div class="content-box" style="margin-top:20px;">
+                            <h4>🎵 Article Test 2 — Éditeur Avancé 12 blocs (17 tests)</h4>
+                            <p><strong>Titre :</strong> "Le Raï : musique de résistance et d'identité"</p>
+                            <p style="margin-top:8px;"><strong>Auteur :</strong> Samira Belhadj · <strong>Contributrice :</strong> Fethia Medjahdi (Musicologue) · <strong>Tags :</strong> Raï · Musique Algérienne · Histoire Culturelle · Patrimoine Immatériel · Khaled · Cheb Mami (10 tags)</p>
+                            <div class="comparison-table-container" style="margin-top:12px;">
+                                <table class="comparison-table">
+                                    <thead><tr><th>Bloc</th><th>Type</th><th>Contenu</th></tr></thead>
+                                    <tbody>
+                                        <tr><td>1</td><td>Titre H1</td><td>"Le Raï : plus qu'une musique, une identité"</td></tr>
+                                        <tr><td>2</td><td>Sous-titre H2</td><td>"Des rues d'Oran aux scènes mondiales"</td></tr>
+                                        <tr><td>3</td><td>Image</td><td>rai-concert-live.jpg avec légende multilingue</td></tr>
+                                        <tr><td>4</td><td>Texte</td><td>Introduction sur les origines du Raï (années 70-80 à Oran)</td></tr>
+                                        <tr><td>5</td><td>Titre H2</td><td>"Les pionniers du Raï : les voix qui ont porté un rêve"</td></tr>
+                                        <tr><td>6</td><td>Image</td><td>rai-history-1980s.jpg — les pionniers</td></tr>
+                                        <tr><td>7</td><td>Texte</td><td>Histoire détaillée des années 80-90, exil, censure</td></tr>
+                                        <tr><td>8</td><td>Citation</td><td>"La musique est la langue universelle de l'humanité" — Khaled Boulares</td></tr>
+                                        <tr><td>9</td><td>Titre H2</td><td>"Le Raï aujourd'hui : un héritage vivant"</td></tr>
+                                        <tr><td>10</td><td>Liste</td><td>5 points clés : influence mondiale, UNESCO, nouvelles générations…</td></tr>
+                                        <tr><td>11</td><td>Image</td><td>rai-modern-stage.jpg — artistes contemporains</td></tr>
+                                        <tr><td>12</td><td>Texte</td><td>Conclusion — avenir du Raï et transmission aux jeunes</td></tr>
+                                    </tbody>
+                                </table>
+                            </div>
+                        </div>
+                        <div class="architecture-grid" style="margin-top:20px;">
+                            <div class="arch-layer">
+                                <div class="layer-icon frontend"><i class="fas fa-user-edit"></i></div>
+                                <h5>Guide Éditeur</h5>
+                                <ul><li>Types d'éditeurs algériens réalistes</li><li>Champs obligatoires et optionnels</li><li>Exemples : Éd. Barzakh, ENAG</li><li>Erreurs courantes à éviter</li></ul>
+                            </div>
+                            <div class="arch-layer">
+                                <div class="layer-icon backend"><i class="fas fa-user-tag"></i></div>
+                                <h5>Guide Contributeur</h5>
+                                <ul><li>Rôles par type d'œuvre</li><li>Biographie multilingue complète</li><li>Réseaux sociaux et spécialités</li><li>Profil Fethia Medjahdi en exemple</li></ul>
+                            </div>
+                            <div class="arch-layer">
+                                <div class="layer-icon database"><i class="fas fa-cubes"></i></div>
+                                <h5>Guide Éditeur Avancé</h5>
+                                <ul><li>12 types de blocs disponibles</li><li>Ajout, suppression, duplication</li><li>Réorganisation par drag & drop</li><li>Checklist 12 points avant publication</li></ul>
+                            </div>
+                        </div>
+                        <div class="mission-tech" style="margin-top:16px;">
+                            <span>Multilingue (4 langues)</span><span>Éditeur avancé</span><span>WYSIWYG</span><span>Gestion médias</span><span>27 tests</span>
+                        </div>
+                    </div>
+
+                    <!-- MISSION 8 -->
+                    <div class="section-subsection">
+                        <h4>
+                            <span style="display:inline-flex;align-items:center;gap:10px;">
+                                <span style="background:linear-gradient(135deg,#1a6b3c,#2ecc71);color:#fff;border-radius:50%;width:32px;height:32px;display:inline-flex;align-items:center;justify-content:center;font-size:0.85rem;font-weight:700;">8</span>
+                                Mission 8 — Tests Unitaires Automatisés avec Jest
+                            </span>
+                        </h4>
+                        <div class="project-overview">
+                            <div class="overview-text">
+                                <p>J'ai mis en place de zéro une <strong>suite de tests unitaires automatisés</strong> avec <strong>Jest</strong> et <strong>Supertest</strong>. Cela comprenait la configuration complète du framework, l'écriture des fichiers de mock, et la rédaction de tests unitaires pour les principaux contrôleurs, routes, modèles et middlewares. Le rapport de couverture de code a été généré via <code>npm run test:coverage</code> et analysé pour identifier les zones non couvertes.</p>
+                            </div>
+                        </div>
+                        <div class="results-grid" style="margin-top:18px;">
+                            <div class="result-item"><div class="result-number">47</div><div class="result-text">Tests écrits au total</div></div>
+                            <div class="result-item"><div class="result-number">45</div><div class="result-text">Tests réussis (PASS)</div></div>
+                            <div class="result-item"><div class="result-number">2</div><div class="result-text">Tests en cours de correction</div></div>
+                            <div class="result-item"><div class="result-number">87,3%</div><div class="result-text">Couverture de code</div></div>
+                        </div>
+                        <div class="features-grid" style="margin-top:20px;">
+                            <div class="feature-card">
+                                <div class="feature-icon auth"><i class="fas fa-cogs"></i></div>
+                                <h5>OeuvreController.test.js</h5>
+                                <ul><li>15 tests · couverture 100 %</li><li>GET liste paginée</li><li>POST création + validation</li><li>PUT modification</li><li>DELETE avec cascade</li><li>Sécurité JWT (401)</li></ul>
+                            </div>
+                            <div class="feature-card">
+                                <div class="feature-icon event"><i class="fas fa-calendar-alt"></i></div>
+                                <h5>EvenementController.test.js</h5>
+                                <ul><li>8 tests · couverture 100 %</li><li>GET par œuvre (route corrigée)</li><li>Création événement lié</li><li>Gestion erreurs Sequelize</li></ul>
+                            </div>
+                            <div class="feature-card">
+                                <div class="feature-icon reservation"><i class="fas fa-paint-brush"></i></div>
+                                <h5>ArtisanatController.test.js</h5>
+                                <ul><li>6 tests · couverture 100 %</li><li>Search sans paramètre q</li><li>Filtres et pagination</li><li>Validation des entrées</li></ul>
+                            </div>
+                            <div class="feature-card">
+                                <div class="feature-icon auth"><i class="fas fa-tags"></i></div>
+                                <h5>MetadataController.test.js</h5>
+                                <ul><li>5 tests · couverture 80 %</li><li>Requêtes après split Sequelize</li><li>2 tests en cours (eager loading)</li></ul>
+                            </div>
+                            <div class="feature-card">
+                                <div class="feature-icon event"><i class="fas fa-route"></i></div>
+                                <h5>Routes Tests</h5>
+                                <ul><li>oeuvreRoutes.test.js · 9 tests</li><li>evenementRoutes.test.js</li><li>Vérification des middlewares</li><li>Auth requise sur routes protégées</li></ul>
+                            </div>
+                            <div class="feature-card">
+                                <div class="feature-icon reservation"><i class="fas fa-layer-group"></i></div>
+                                <h5>Modèles &amp; Middlewares</h5>
+                                <ul><li>Media.test.js — associations</li><li>validationMiddleware.test.js</li><li>Tests des erreurs 400</li><li>Mocks Sequelize complets</li></ul>
+                            </div>
+                        </div>
+                        <div class="code-examples" style="margin-top:20px;">
+                            <div class="code-tabs">
+                                <button class="code-tab active" data-tab="m8-config">Configuration Jest</button>
+                                <button class="code-tab" data-tab="m8-controller">Tests Contrôleur</button>
+                                <button class="code-tab" data-tab="m8-coverage">Rapport Coverage</button>
+                            </div>
+                            <div class="code-content active" id="m8-config">
+                                <pre><code class="javascript">// jest.config.js
+module.exports = {
+  testEnvironment: 'node',
+  testMatch: ['**/tests/**/*.test.js'],
+  collectCoverageFrom: [
+    'controllers/**/*.js',
+    'routes/**/*.js',
+    'models/**/*.js',
+    'middlewares/**/*.js'
+  ],
+  coverageDirectory: 'coverage',
+  coverageReporters: ['html', 'text', 'lcov'],
+  setupFilesAfterFramework: ['./tests/setup.js'],
+  testTimeout: 10000
+};
+
+// tests/setup.js
+const { sequelize } = require('../models');
+
+beforeAll(async () => {
+  await sequelize.authenticate();
+  global.testToken = generateTestToken({
+    id_user: 2,
+    role: 'Administrateur'
+  });
+});
+
+afterAll(async () => {
+  await sequelize.close();
+});
+
+// tests/helpers/mocks.js
+jest.mock('../models', () => ({
+  Oeuvre:       { findAndCountAll: jest.fn(), findByPk: jest.fn(), create: jest.fn(), update: jest.fn(), destroy: jest.fn() },
+  OeuvreMedia:  { findAll: jest.fn(), create: jest.fn(), destroy: jest.fn(), update: jest.fn() },
+  Evenement:    { findAll: jest.fn(), findByPk: jest.fn() },
+  Artisanat:    { findAll: jest.fn() },
+  TypeOeuvre:   { findAll: jest.fn() }
+}));</code></pre>
+                            </div>
+                            <div class="code-content" id="m8-controller">
+                                <pre><code class="javascript">// backend/tests/unit/controllers/OeuvreController.test.js
+const request = require('supertest');
+const app     = require('../../../app');
+const { Oeuvre, OeuvreMedia } = require('../../../models');
+
+describe('OeuvreController — Tests unitaires', () => {
+
+  describe('GET /api/oeuvres', () => {
+    it('retourne la liste paginée avec code 200', async () => {
+      Oeuvre.findAndCountAll.mockResolvedValue({
+        count: 15,
+        rows: [{ id_oeuvre: 1, titre: { fr: 'Test Calligraphie' } }]
+      });
+      const res = await request(app)
+        .get('/api/oeuvres?page=1&limit=10')
+        .set('Authorization', `Bearer ${global.testToken}`);
+
+      expect(res.status).toBe(200);
+      expect(res.body).toHaveProperty('data');
+      expect(res.body.total).toBe(15);
+    });
+
+    it('retourne 401 sans token JWT', async () => {
+      const res = await request(app).get('/api/oeuvres');
+      expect(res.status).toBe(401);
+    });
+  });
+
+  describe('POST /api/oeuvres', () => {
+    it('crée une œuvre et retourne 201', async () => {
+      const newOeuvre = { id_oeuvre: 52, titre: { fr: 'Nouveau test' } };
+      Oeuvre.create.mockResolvedValue(newOeuvre);
+
+      const res = await request(app)
+        .post('/api/oeuvres')
+        .set('Authorization', `Bearer ${global.testToken}`)
+        .send({ titre: { fr: 'Nouveau test' }, id_type: 13, annee: 2026 });
+
+      expect(res.status).toBe(201);
+      expect(res.body.id_oeuvre).toBe(52);
+    });
+
+    it('retourne 400 si champs obligatoires manquants', async () => {
+      const res = await request(app)
+        .post('/api/oeuvres')
+        .set('Authorization', `Bearer ${global.testToken}`)
+        .send({ annee: 2026 });
+
+      expect(res.status).toBe(400);
+      expect(res.body.errors).toBeDefined();
+    });
+  });
+
+  describe('DELETE /api/oeuvres/:id', () => {
+    it('supprime en cascade les médias, commentaires et favoris', async () => {
+      Oeuvre.findByPk.mockResolvedValue({ id_oeuvre: 51, destroy: jest.fn() });
+      OeuvreMedia.destroy.mockResolvedValue(3);
+
+      const res = await request(app)
+        .delete('/api/oeuvres/51')
+        .set('Authorization', `Bearer ${global.testToken}`);
+
+      expect(res.status).toBe(200);
+      expect(OeuvreMedia.destroy).toHaveBeenCalledWith(
+        { where: { id_oeuvre: 51 } }
+      );
+    });
+  });
+});</code></pre>
+                            </div>
+                            <div class="code-content" id="m8-coverage">
+                                <pre><code class="bash"># Commandes disponibles
+npm test                    # Exécuter tous les tests
+npm run test:coverage       # Générer le rapport HTML
+npm run test:watch          # Mode watch
+
+# Extrait du rapport de couverture
+# ─────────────────────────────────────────────────────────────────
+# File                          | % Stmts | % Branch | % Funcs | % Lines
+# ─────────────────────────────────────────────────────────────────
+# controllers/OeuvreController  |  100    |  95      |  100    |  100
+# controllers/EvenementCtrl     |  100    |  90      |  100    |  100
+# controllers/ArtisanatCtrl     |  100    |  88      |  100    |  100
+# controllers/MetadataCtrl      |   80    |  75      |   80    |   80
+# routes/oeuvreRoutes           |  100    |  100     |  100    |  100
+# routes/evenementRoutes        |   95    |  90      |   95    |   95
+# models/Media                  |   85    |  80      |   85    |   85
+# middlewares/validation        |   90    |  85      |   90    |   90
+# ─────────────────────────────────────────────────────────────────
+# All files                     |  87.3   |  85.4    |  87.8   |  87.5
+# ─────────────────────────────────────────────────────────────────
+# Test Suites : 8 passed, 8 total
+# Tests       : 45 passed, 2 failed, 47 total
+# Time        : 4.823s</code></pre>
+                            </div>
+                        </div>
+                        <div class="mission-tech" style="margin-top:16px;">
+                            <span>Jest</span><span>Supertest</span><span>Coverage HTML</span><span>Mocks Sequelize</span><span>TDD</span>
+                        </div>
+                    </div>
+
+                    <!-- COMPÉTENCES ACQUISES STAGE 2 -->
+                    <div class="section-subsection">
+                        <h4>Compétences Acquises</h4>
+                        <div class="learnings-content">
+                            <div class="technical-skills">
+                                <h5>Compétences Techniques</h5>
+                                <div class="skills-list">
+                                    <div class="skill-item"><div class="skill-meter" data-level="95"></div><span>Tests manuels API REST avec Postman</span></div>
+                                    <div class="skill-item"><div class="skill-meter" data-level="90"></div><span>Rédaction de documentation technique professionnelle</span></div>
+                                    <div class="skill-item"><div class="skill-meter" data-level="88"></div><span>Tests unitaires Jest + Supertest</span></div>
+                                    <div class="skill-item"><div class="skill-meter" data-level="85"></div><span>Débogage Node.js / Express / Sequelize</span></div>
+                                    <div class="skill-item"><div class="skill-meter" data-level="82"></div><span>Tests UI et responsive (Chrome DevTools)</span></div>
+                                    <div class="skill-item"><div class="skill-meter" data-level="80"></div><span>Architecture full-stack moderne (React + Node.js)</span></div>
+                                </div>
+                            </div>
+                            <div class="soft-skills">
+                                <h5>Compétences Transversales</h5>
+                                <ul>
+                                    <li><i class="fas fa-check-circle"></i> Rigueur et méthodologie QA (assurance qualité)</li>
+                                    <li><i class="fas fa-check-circle"></i> Analyse de logs et débogage autonome</li>
+                                    <li><i class="fas fa-check-circle"></i> Rédaction de rapports techniques détaillés</li>
+                                    <li><i class="fas fa-check-circle"></i> Travail sur une base de code existante et complexe</li>
+                                    <li><i class="fas fa-check-circle"></i> Gestion de versions Git (branches, commits, isolation)</li>
+                                    <li><i class="fas fa-check-circle"></i> Sensibilité culturelle (contenu multilingue algérien)</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+
                 </div>
+            </div>
+        </div>
+
+    </div><!-- /fin projets-grid STAGES -->
 
 
-                <!-- Structure des Composants -->
-    <div class="section-subsection">
-        <h4>📁 Structure des Composants</h4>
-        <div class="components-structure">
-            <div class="components-tree">
-                <h5>Arborescence des composants :</h5>
-                <pre>
-                    src/
+    <!-- ══ GRILLE 2 : LES 3 PROJETS ÉCOLE ══ -->
+    <div class="projets-grid" style="margin-top:30px;">
+
+        <!-- ─── Projet École 1 : Backend Spring Boot ─── -->
+        <div class="projet-column">
+            <button class="projet-btn" data-projet="backend">
+                <div class="btn-icon">
+                    <i class="fab fa-java"></i>
+                </div>
+                <div class="btn-content">
+                    <h3>Projet Backend</h3>
+                    <p>API REST Spring Boot</p>
+                    <span class="btn-date">Java · Spring Boot · MySQL</span>
+                </div>
+                <div class="btn-arrow">
+                    <i class="fas fa-chevron-down"></i>
+                </div>
+            </button>
+
+            <div class="projet-content" id="backend-content">
+                <div class="project-container">
+                    <div class="project-section">
+                        <div class="project-header">
+                            <div class="project-badge">
+                                <i class="fab fa-java"></i>
+                                PROJET 1 - BACKEND SPRING BOOT
+                            </div>
+                            <h3>API REST pour Application Événementielle</h3>
+                            <p class="project-subtitle">Développement du backend avec Spring Boot, sécurité JWT et base MySQL</p>
+                            <div class="project-links">
+                                <a href="https://github.com/fatoundiaye2000/MonProjetBackEnd.git" class="github-link" target="_blank">
+                                    <i class="fab fa-github"></i> Voir le code Backend sur GitHub
+                                </a>
+                            </div>
+                        </div>
+
+                        <div class="section-subsection">
+                            <h4>🏗 Architecture du Backend</h4>
+                            <div class="project-overview">
+                                <div class="overview-text">
+                                    <p>J'ai développé une API REST complète avec Spring Boot qui sert de fondation à l'application événementielle. L'architecture suit le pattern MVC et inclut un système de sécurité robuste.</p>
+                                    <div class="key-features">
+                                        <div class="feature"><i class="fas fa-check-circle"></i><span>API REST avec endpoints documentés</span></div>
+                                        <div class="feature"><i class="fas fa-check-circle"></i><span>Authentification JWT sécurisée</span></div>
+                                        <div class="feature"><i class="fas fa-check-circle"></i><span>Base de données MySQL avec relations complexes</span></div>
+                                        <div class="feature"><i class="fas fa-check-circle"></i><span>Validation des données et gestion des erreurs</span></div>
+                                    </div>
+                                </div>
+                                <div class="overview-image">
+                                    <img src="images/project-screenshot.jpg" alt="Capture d'écran du projet">
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="section-subsection">
+                            <h4>⚙ Stack Technique Backend</h4>
+                            <div class="tech-stack-grid">
+                                <div class="tech-stack-item"><div class="tech-icon"><i class="fab fa-java"></i></div><div class="tech-info"><h5>Java </h5><p>Langage principal avec les dernières features</p></div></div>
+                                <div class="tech-stack-item"><div class="tech-icon"><i class="fas fa-leaf"></i></div><div class="tech-info"><h5>Spring Boot </h5><p>Framework principal avec auto-configuration</p></div></div>
+                                <div class="tech-stack-item"><div class="tech-icon"><i class="fas fa-database"></i></div><div class="tech-info"><h5>MySQL</h5><p>Base de données relationnelle</p></div></div>
+                                <div class="tech-stack-item"><div class="tech-icon"><i class="fas fa-shield-alt"></i></div><div class="tech-info"><h5>Spring Security</h5><p>Authentification et autorisation</p></div></div>
+                                <div class="tech-stack-item"><div class="tech-icon"><i class="fas fa-code"></i></div><div class="tech-info"><h5>JPA/Hibernate</h5><p>ORM pour la persistance des données</p></div></div>
+                                <div class="tech-stack-item"><div class="tech-icon"><i class="fas fa-check-circle"></i></div><div class="tech-info"><h5>JUnit </h5><p>Tests unitaires et d'intégration</p></div></div>
+                            </div>
+                        </div>
+
+                        <div class="section-subsection">
+                            <h4>Modélisation des Données</h4>
+                            <div class="model-content">
+                                <div class="uml-diagram">
+                                    <img src="images/uml-diagram.png" alt="Diagramme UML des entités">
+                                    <p class="diagram-caption">Diagramme de classes simplifié</p>
+                                </div>
+                                <h3>Documentation Technique projet backend</h3>
+                                <p>Consultez la documentation pour mon projet backend (→) Spring boot.</p>
+                                <a href="images/Doc_ProjetSLAM1.pdf" class="btn btn-primary" target="_blank">
+                                    <i class="fas fa-download"></i> Consulter
+                                </a>
+                            </div>
+                        </div>
+
+                        <div class="section-subsection">
+                            <h4>📁 Structure des Composants</h4>
+                            <div class="components-structure">
+                                <div class="components-tree">
+                                    <h5>Arborescence des composants :</h5>
+                                    <pre>
+src/
 ├── main/
 │   ├── java/com/example/demo/
-│   │   ├── config/                  ← Configurations Spring
-│   │   ├── controller/              ← Contrôleurs REST (@RestController)
-│   │   ├── dto/Request/             ← Objets pour les requêtes HTTP
-│   │   ├── entities/                ← Entités JPA (@Entity)
-│   │   ├── exception/               ← Gestionnaires d'exceptions globales
-│   │   ├── repos/                   ← Repositories JPA (@Repository)
-│   │   ├── security/                ← Configuration sécurité (JWT, auth)
-│   │   └── service/                 ← Couche métier et logique
-│   └── resources/                   ← Fichiers de config (application.properties, etc.)
-└── test/                            ← Tests unitaires et d'intégration
-       </pre>
-            </div>
-
-                       
-                      <div class="code-example">
-                                <div class="code-tabs">
-                                    <button class="code-tab active" data-tab="user-entity">User.java</button>
-                                    <button class="code-tab" data-tab="event-entity">Evenement.java</button>
-                                    <button class="code-tab" data-tab="repository">EvenementRepository</button>
-                                </div>         
-                                
-                                <div class="code-content active" id="user-entity">
-                                    <pre><code class="java">// Entité User avec JPA/Hibernate
+│   │   ├── config/
+│   │   ├── controller/
+│   │   ├── dto/Request/
+│   │   ├── entities/
+│   │   ├── exception/
+│   │   ├── repos/
+│   │   ├── security/
+│   │   └── service/
+│   └── resources/
+└── test/</pre>
+                                </div>
+                                <div class="code-example">
+                                    <div class="code-tabs">
+                                        <button class="code-tab active" data-tab="user-entity">User.java</button>
+                                        <button class="code-tab" data-tab="event-entity">Evenement.java</button>
+                                        <button class="code-tab" data-tab="repository">EvenementRepository</button>
+                                    </div>
+                                    <div class="code-content active" id="user-entity">
+                                        <pre><code class="java">// Entité User avec JPA/Hibernate
 package com.example.demo.entities;
 
 import jakarta.persistence.*;
@@ -779,24 +1465,21 @@ public class User {
     private String password;
     private Boolean enabled = true;
 
-    // RELATION MANYTOMANY
     @ManyToMany(cascade = CascadeType.ALL, fetch = FetchType.EAGER)
     @JoinTable(
         name = "user_role",
         joinColumns = @JoinColumn(name = "user_id"),
         inverseJoinColumns = @JoinColumn(name = "role_id")
     )
-    private List<Role> roles = new ArrayList<>();
+    private List&lt;Role&gt; roles = new ArrayList&lt;&gt;();
     
     @OneToMany(mappedBy = "organisateur")
-    private List<Evenement> evenementsOrganises = new ArrayList<>();
+    private List&lt;Evenement&gt; evenementsOrganises = new ArrayList&lt;&gt;();
     
     @OneToMany(mappedBy = "user")
-    private List<Reservation> reservations = new ArrayList<>();
+    private List&lt;Reservation&gt; reservations = new ArrayList&lt;&gt;();
 
-    // CONSTRUCTEURS
-    public User() {
-    }
+    public User() {}
 
     public User(Long idUser, String nom, String prenom, String email, String password, Boolean enabled) {
         this.idUser = idUser;
@@ -807,20 +1490,11 @@ public class User {
         this.enabled = enabled;
     }
 
-    public User(Long idUser, String email, String password, Boolean enabled, List<Role> roles) {
-        this.idUser = idUser;
-        this.email = email;
-        this.password = password;
-        this.enabled = enabled;
-        this.roles = roles;
-    }
-
     // GETTERS ET SETTERS
 }</code></pre>
-                                </div>
-                                
-                                <div class="code-content" id="event-entity">
-                                    <pre><code class="java">// Entité Evenement
+                                    </div>
+                                    <div class="code-content" id="event-entity">
+                                        <pre><code class="java">// Entité Evenement
 package com.example.demo.entities;
 
 import java.util.Date;
@@ -853,212 +1527,197 @@ public class Evenement {
     private User organisateur;
     
     @OneToMany(mappedBy = "evenement")
-    private List<Reservation> reservations;
+    private List&lt;Reservation&gt; reservations;
     
     @ManyToMany
     @JoinTable(
         name = "sponsoriser",
         joinColumns = @JoinColumn(name = "idEvent"),
         inverseJoinColumns = @JoinColumn(name = "idSponsor"))
-    private List<User> sponsors;
+    private List&lt;User&gt; sponsors;
     
     // Getters et Setters......
 }</code></pre>
-                                </div>
-                                
-                                <div class="code-content" id="repository">
-                                    <pre><code class="java">// Repository pour Evenement
+                                    </div>
+                                    <div class="code-content" id="repository">
+                                        <pre><code class="java">// Repository pour Evenement
 package com.example.demo.repos;
 
 import org.springframework.data.jpa.repository.JpaRepository;
 import com.example.demo.entities.Evenement;
 import java.util.List;
 
-public interface EvenementRepository extends JpaRepository<Evenement, Long> {
-    // Méthodes spécifiques au besoin
-    List<Evenement> findByTitreEventContaining(String titre);
+public interface EvenementRepository extends JpaRepository&lt;Evenement, Long&gt; {
+    List&lt;Evenement&gt; findByTitreEventContaining(String titre);
 }</code></pre>
+                                    </div>
                                 </div>
                             </div>
                         </div>
-                    </div>
 
+                        <div class="section-subsection">
+                            <h4>Fonctionnalités Implémentées</h4>
+                            <div class="features-grid">
+                                <div class="feature-card">
+                                    <div class="feature-icon auth"><i class="fas fa-user-shield"></i></div>
+                                    <h5>Système d'Authentification</h5>
+                                    <ul><li>Inscription/Connexion sécurisée</li><li>JWT pour l'autorisation</li><li>Hachage BCrypt des mots de passe</li><li>Rôles et permissions</li></ul>
+                                </div>
+                                <div class="feature-card">
+                                    <div class="feature-icon event"><i class="fas fa-calendar-alt"></i></div>
+                                    <h5>Gestion des Événements</h5>
+                                    <ul><li>CRUD complet avec validation</li><li>Recherche et filtrage</li><li>Pagination des résultats</li><li>Export PDF des participants</li></ul>
+                                </div>
+                                <div class="feature-card">
+                                    <div class="feature-icon reservation"><i class="fas fa-ticket-alt"></i></div>
+                                    <h5>Réservations</h5>
+                                    <ul><li>Processus de réservation en 3 étapes</li><li>Email de confirmation</li><li>QR Code pour check-in</li><li>Annulation et remboursement</li></ul>
+                                </div>
+                            </div>
+                        </div>
 
+                        <div class="section-subsection">
+                            <h4>Compétences Acquises</h4>
+                            <div class="learnings-content">
+                                <div class="technical-skills">
+                                    <h5>Techniques</h5>
+                                    <div class="skills-list">
+                                        <div class="skill-item"><div class="skill-meter" data-level="90"></div><span>Développement Full-Stack</span></div>
+                                        <div class="skill-item"><div class="skill-meter" data-level="85"></div><span>API REST avec Spring</span></div>
+                                        <div class="skill-item"><div class="skill-meter" data-level="80"></div><span>Modélisation de BDD</span></div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
 
-
-                    <!-- PROJET 2 : FRONTEND REACT -->
-<div class="project-section">
-    <div class="project-header">
-        <div class="project-badge">
-            <i class="fab fa-react"></i>
-            PROJET 2 - FRONTEND REACT
-        </div>
-        <h3>Interface Utilisateur Moderne</h3>
-        <p class="project-subtitle">Développement du frontend avec React.js, gestion d'état et design responsive</p>
-        
-        <div class="project-links">
-            <a href="https://github.com/fatoundiaye2000/MonProjetFrontEnd.git" class="github-link" target="_blank">
-                <i class="fab fa-github"></i> Voir le code Frontend sur GitHub
-            </a>
-        </div>
-    </div>
-
-    <!-- Architecture Frontend -->
-    <div class="section-subsection">
-        <h4>🎨 Architecture du Frontend</h4>
-        <div class="project-overview">
-            <div class="overview-text">
-                <p>J'ai développé une interface utilisateur moderne et responsive avec React.js qui communique avec l'API backend. L'architecture utilise les hooks React et la gestion d'état centralisée.</p>
-                
-                <div class="key-features">
-                    <div class="feature">
-                        <i class="fas fa-check-circle"></i>
-                        <span>Interface responsive et accessible</span>
-                    </div>
-                    <div class="feature">
-                        <i class="fas fa-check-circle"></i>
-                        <span>Gestion d'état avec Context API</span>
-                    </div>
-                    <div class="feature">
-                        <i class="fas fa-check-circle"></i>
-                        <span>Routing avec React Router DOM</span>
-                    </div>
-                    <div class="feature">
-                        <i class="fas fa-check-circle"></i>
-                        <span>Communication API avec Axios</span>
                     </div>
                 </div>
             </div>
-        </div>
-    </div>
+        </div><!-- /fin Backend -->
 
-    <!-- Stack Technique Frontend -->
-    <div class="section-subsection">
-        <h4>🛠 Stack Technique Frontend</h4>
-        <div class="tech-stack-grid">
-            <div class="tech-stack-item">
-                <div class="tech-icon">
+
+        <!-- ─── Projet École 2 : Frontend React ─── -->
+        <div class="projet-column">
+            <button class="projet-btn" data-projet="frontend">
+                <div class="btn-icon">
                     <i class="fab fa-react"></i>
                 </div>
-                <div class="tech-info">
-                    <h5>React </h5>
-                    <p>Bibliothèque principale avec hooks</p>
+                <div class="btn-content">
+                    <h3>Projet Frontend</h3>
+                    <p>Interface React.js</p>
+                    <span class="btn-date">React · TypeScript · Tailwind</span>
                 </div>
-            </div>
-            <div class="tech-stack-item">
-                <div class="tech-icon">
-                    <i class="fas fa-road"></i>
+                <div class="btn-arrow">
+                    <i class="fas fa-chevron-down"></i>
                 </div>
-                <div class="tech-info">
-                    <h5>React Router</h5>
-                    <p>Navigation entre les pages</p>
-                </div>
-            </div>
-            <div class="tech-stack-item">
-                <div class="tech-icon">
-                    <i class="fas fa-bolt"></i>
-                </div>
-                <div class="tech-info">
-                    <h5>Axios</h5>
-                    <p>Requêtes HTTP vers l'API</p>
-                </div>
-            </div>
-            <div class="tech-stack-item">
-                <div class="tech-icon">
-                    <i class="fas fa-paint-brush"></i>
-                </div>
-                <div class="tech-info">
-                    <h5>CSS Modules</h5>
-                    <p>Stylisation modulaire</p>
-                </div>
-            </div>
-            <div class="tech-stack-item">
-                <div class="tech-icon">
-                    <i class="fas fa-mobile-alt"></i>
-                </div>
-                <div class="tech-info">
-                    <h5>Responsive Design</h5>
-                    <p>Adaptation mobile/desktop</p>
-                </div>
-            </div>
-            <div class="tech-stack-item">
-                <div class="tech-icon">
-                    <i class="fas fa-shield-alt"></i>
-                </div>
-                <div class="tech-info">
-                    <h5>Context API</h5>
-                    <p>Gestion d'état global</p>
-                </div>
-            </div>
-        </div>
-    </div>
+            </button>
 
-    <!-- Structure des Composants -->
-    <div class="section-subsection">
-        <h4>📁 Structure des Composants</h4>
-        <div class="components-structure">
-            <div class="components-tree">
-                <h5>Arborescence des composants :</h5>
-                <pre>
+            <div class="projet-content" id="frontend-content">
+                <div class="project-container">
+                    <div class="project-section">
+                        <div class="project-header">
+                            <div class="project-badge">
+                                <i class="fab fa-react"></i>
+                                PROJET 2 - FRONTEND REACT
+                            </div>
+                            <h3>Interface Utilisateur Moderne</h3>
+                            <p class="project-subtitle">Développement du frontend avec React.js, gestion d'état et design responsive</p>
+                            <div class="project-links">
+                                <a href="https://github.com/fatoundiaye2000/MonProjetFrontEnd.git" class="github-link" target="_blank">
+                                    <i class="fab fa-github"></i> Voir le code Frontend sur GitHub
+                                </a>
+                            </div>
+                        </div>
+
+                        <div class="section-subsection">
+                            <h4>🎨 Architecture du Frontend</h4>
+                            <div class="project-overview">
+                                <div class="overview-text">
+                                    <p>J'ai développé une interface utilisateur moderne et responsive avec React.js qui communique avec l'API backend. L'architecture utilise les hooks React et la gestion d'état centralisée.</p>
+                                    <div class="key-features">
+                                        <div class="feature"><i class="fas fa-check-circle"></i><span>Interface responsive et accessible</span></div>
+                                        <div class="feature"><i class="fas fa-check-circle"></i><span>Gestion d'état avec Context API</span></div>
+                                        <div class="feature"><i class="fas fa-check-circle"></i><span>Routing avec React Router DOM</span></div>
+                                        <div class="feature"><i class="fas fa-check-circle"></i><span>Communication API avec Axios</span></div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="section-subsection">
+                            <h4>🛠 Stack Technique Frontend</h4>
+                            <div class="tech-stack-grid">
+                                <div class="tech-stack-item"><div class="tech-icon"><i class="fab fa-react"></i></div><div class="tech-info"><h5>React </h5><p>Bibliothèque principale avec hooks</p></div></div>
+                                <div class="tech-stack-item"><div class="tech-icon"><i class="fas fa-road"></i></div><div class="tech-info"><h5>React Router</h5><p>Navigation entre les pages</p></div></div>
+                                <div class="tech-stack-item"><div class="tech-icon"><i class="fas fa-bolt"></i></div><div class="tech-info"><h5>Axios</h5><p>Requêtes HTTP vers l'API</p></div></div>
+                                <div class="tech-stack-item"><div class="tech-icon"><i class="fas fa-paint-brush"></i></div><div class="tech-info"><h5>CSS Modules</h5><p>Stylisation modulaire</p></div></div>
+                                <div class="tech-stack-item"><div class="tech-icon"><i class="fas fa-mobile-alt"></i></div><div class="tech-info"><h5>Responsive Design</h5><p>Adaptation mobile/desktop</p></div></div>
+                                <div class="tech-stack-item"><div class="tech-icon"><i class="fas fa-shield-alt"></i></div><div class="tech-info"><h5>Context API</h5><p>Gestion d'état global</p></div></div>
+                            </div>
+                        </div>
+
+                        <div class="section-subsection">
+                            <h4>📁 Structure des Composants</h4>
+                            <div class="components-structure">
+                                <div class="components-tree">
+                                    <h5>Arborescence des composants :</h5>
+                                    <pre>
 mon-app-frontend/
-├── public/                          ← Fichiers statiques servis directement
-│   ├── index.html                   ← HTML principal
-│   └── vite.svg                     ← Logo Vite
+├── public/
+│   ├── index.html
+│   └── vite.svg
 ├── src/
-│   ├── assets/                      ← Images, icônes, polices
-│   ├── config/constants.ts          ← Constantes globales (URLs API, etc.)
-│   ├── core/                        ← Logique métier et utilitaires
-│   │   ├── types/                   ← Définitions TypeScript
-│   │   │   ├── auth.types.ts        ← Types pour l'authentification
-│   │   │   └── user.types.ts        ← Types pour les utilisateurs
-│   │   └── utils/httpClient.ts      ← Client HTTP configuré (Axios/Fetch)
-│   ├── services/                    ← Appels API et logique métier
-│   │   ├── api/                     ← Services par entité
-│   │   │   ├── user.service.ts      ← Appels API utilisateurs
-│   │   │   └── event.service.ts     ← Appels API événements
-│   │   └── auth.service.ts          ← Service d'authentification
-│   ├── hooks/useAuth.ts             ← Hook personnalisé pour l'auth
-│   ├── components/                  ← Composants réutilisables
-│   │   ├── DashboardNav.tsx         ← Navigation dashboard
-│   │   └── ProtectedRoute.tsx       ← Route protégée par auth
-│   ├── pages/                       ← Pages/écrans de l'application
-│   │   └── auth/                    ← Pages d'authentification
-│   │       ├── Login/Login.page.tsx ← Page de connexion
-│   │       └── Register/            ← Page d'inscription
-│   ├── App.tsx                      ← Composant racine et routes
-│   ├── main.tsx                     ← Point d'entrée React
-│   └── index.css                    ← Styles globaux
-├── package.json                     ← Dépendances et scripts
-├── tsconfig.json                    ← Configuration TypeScript
-├── vite.config.ts                   ← Configuration Vite
-├── tailwind.config.js               ← Configuration Tailwind CSS
-├── .env                             ← Variables d'environnement
-├── .env.example                     ← Exemple variables d'env
-└── README.md                        ← Documentation du projet
-                </pre>
-            </div>
-            <div class="components-explanation">
-                <h5>Fonctionnalités principales :</h5>
-                <ul>
-                    <li><strong>Page d'accueil</strong> : Présentation et événements populaires</li>
-                    <li><strong>Liste des événements</strong> : Affichage et recherche</li>
-                    <li><strong>Détail événement</strong> : Information et réservation</li>
-                    <li><strong>Authentification</strong> : Connexion et inscription</li>
-                    <li><strong>Profil utilisateur</strong> : Gestion des réservations</li>
-                </ul>
-            </div>
-        </div>
-    </div>
+│   ├── assets/
+│   ├── config/constants.ts
+│   ├── core/
+│   │   ├── types/
+│   │   │   ├── auth.types.ts
+│   │   │   └── user.types.ts
+│   │   └── utils/httpClient.ts
+│   ├── services/
+│   │   ├── api/
+│   │   │   ├── user.service.ts
+│   │   │   └── event.service.ts
+│   │   └── auth.service.ts
+│   ├── hooks/useAuth.ts
+│   ├── components/
+│   │   ├── DashboardNav.tsx
+│   │   └── ProtectedRoute.tsx
+│   ├── pages/
+│   │   └── auth/
+│   │       ├── Login/Login.page.tsx
+│   │       └── Register/
+│   ├── App.tsx
+│   ├── main.tsx
+│   └── index.css
+├── package.json
+├── tsconfig.json
+├── vite.config.ts
+├── tailwind.config.js
+├── .env
+└── README.md</pre>
+                                </div>
+                                <div class="components-explanation">
+                                    <h5>Fonctionnalités principales :</h5>
+                                    <ul>
+                                        <li><strong>Page d'accueil</strong> : Présentation et événements populaires</li>
+                                        <li><strong>Liste des événements</strong> : Affichage et recherche</li>
+                                        <li><strong>Détail événement</strong> : Information et réservation</li>
+                                        <li><strong>Authentification</strong> : Connexion et inscription</li>
+                                        <li><strong>Profil utilisateur</strong> : Gestion des réservations</li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
 
-         <div class="code-example">
-    <div class="code-tabs">
-        <button class="code-tab active" data-tab="protected-route">ProtectedRoute.js</button>
-        <button class="code-tab" data-tab="useauth-ts">UseAuth.ts</button>
-        <button class="code-tab" data-tab="auth-service">Auth.Service.ts</button>
-    </div>   
-    
-    <div class="code-content active" id="protected-route">
-        <pre><code class="javascript">import { Navigate } from 'react-router-dom';
+                        <div class="code-example">
+                            <div class="code-tabs">
+                                <button class="code-tab active" data-tab="protected-route">ProtectedRoute.js</button>
+                                <button class="code-tab" data-tab="useauth-ts">UseAuth.ts</button>
+                                <button class="code-tab" data-tab="auth-service">Auth.Service.ts</button>
+                            </div>
+                            <div class="code-content active" id="protected-route">
+                                <pre><code class="javascript">import { Navigate } from 'react-router-dom';
 import { useAuth } from '../hooks/useAuth';
 
 interface ProtectedRouteProps {
@@ -1066,7 +1725,7 @@ interface ProtectedRouteProps {
   requiredRole?: string;
 }
 
-export const ProtectedRoute: React.FC<ProtectedRouteProps> = ({
+export const ProtectedRoute: React.FC&lt;ProtectedRouteProps&gt; = ({
   children,
   requiredRole
 }) => {
@@ -1074,37 +1733,36 @@ export const ProtectedRoute: React.FC<ProtectedRouteProps> = ({
 
   if (isLoading) {
     return (
-      <div className="flex items-center justify-center min-h-screen">
-        <div className="animate-spin rounded-full h-12 w-12 border-b-2 border-blue-600"></div>
-      </div>
+      &lt;div className="flex items-center justify-center min-h-screen"&gt;
+        &lt;div className="animate-spin rounded-full h-12 w-12 border-b-2 border-blue-600"&gt;&lt;/div&gt;
+      &lt;/div&gt;
     );
   }
 
   if (!isAuthenticated) {
-    return <Navigate to="/login" replace />;
+    return &lt;Navigate to="/login" replace /&gt;;
   }
 
   if (requiredRole && !hasRole(requiredRole)) {
     return (
-      <div className="flex items-center justify-center min-h-screen">
-        <div className="text-center">
-          <h1 className="text-2xl font-bold text-red-600 mb-4">
+      &lt;div className="flex items-center justify-center min-h-screen"&gt;
+        &lt;div className="text-center"&gt;
+          &lt;h1 className="text-2xl font-bold text-red-600 mb-4"&gt;
             Accès Refusé
-          </h1>
-          <p className="text-gray-600">
-            Vous n'avez pas les permissions nécessaires pour accéder à cette page.
-          </p>
-        </div>
-      </div>
+          &lt;/h1&gt;
+          &lt;p className="text-gray-600"&gt;
+            Vous n'avez pas les permissions nécessaires.
+          &lt;/p&gt;
+        &lt;/div&gt;
+      &lt;/div&gt;
     );
   }
 
-  return <>{children}</>;
+  return &lt;&gt;{children}&lt;/&gt;;
 }</code></pre>
-    </div>
-    
-    <div class="code-content" id="useauth-ts">
-        <pre><code class="javascript">import { useState, useEffect, useCallback } from 'react';
+                            </div>
+                            <div class="code-content" id="useauth-ts">
+                                <pre><code class="javascript">import { useState, useEffect, useCallback } from 'react';
 import authService from '../services/auth.service';
 import { RegisterRequest } from '../types/auth.types';
 
@@ -1114,25 +1772,24 @@ interface UseAuthReturn {
   isAuthenticated: boolean;
   isLoading: boolean;
   error: string | null;
-  login: (username: string, password: string) => Promise<void>;
-  register: (data: RegisterRequest) => Promise<void>;
+  login: (username: string, password: string) => Promise&lt;void&gt;;
+  register: (data: RegisterRequest) => Promise&lt;void&gt;;
   logout: () => void;
   clearError: () => void;
   hasRole: (role: string) => boolean;
 }
 
 export const useAuth = (): UseAuthReturn => {
-  const [token, setToken] = useState<string | null>(null);
-  const [user, setUser] = useState<{ username: string; roles: string[] } | null>(null);
-  const [isLoading, setIsLoading] = useState<boolean>(true);
-  const [error, setError] = useState<string | null>(null);
+  const [token, setToken] = useState&lt;string | null&gt;(null);
+  const [user, setUser] = useState&lt;{ username: string; roles: string[] } | null&gt;(null);
+  const [isLoading, setIsLoading] = useState&lt;boolean&gt;(true);
+  const [error, setError] = useState&lt;string | null&gt;(null);
 
   useEffect(() => {
     const initAuth = () => {
       try {
         const storedToken = authService.getToken();
         const storedUser = authService.getUser();
-        
         if (storedToken && authService.isAuthenticated()) {
           setToken(storedToken);
           setUser(storedUser);
@@ -1146,23 +1803,17 @@ export const useAuth = (): UseAuthReturn => {
         setIsLoading(false);
       }
     };
-
     initAuth();
   }, []);
 
   const login = useCallback(async (username: string, password: string) => {
     setIsLoading(true);
     setError(null);
-    
     try {
       const decoded = await authService.login(username, password);
       const newToken = authService.getToken();
-      
       setToken(newToken);
-      setUser({
-        username: decoded.sub,
-        roles: decoded.roles,
-      });
+      setUser({ username: decoded.sub, roles: decoded.roles });
     } catch (err: unknown) {
       const errorMessage = err instanceof Error ? err.message : 'Erreur de connexion';
       setError(errorMessage);
@@ -1175,7 +1826,6 @@ export const useAuth = (): UseAuthReturn => {
   const register = useCallback(async (data: RegisterRequest) => {
     setIsLoading(true);
     setError(null);
-    
     try {
       await authService.register(data);
       await login(data.nom, data.motDePasse);
@@ -1195,86 +1845,44 @@ export const useAuth = (): UseAuthReturn => {
     setError(null);
   }, []);
 
-  const clearError = useCallback(() => {
-    setError(null);
-  }, []);
-
-  const hasRole = useCallback((role: string): boolean => {
-    return authService.hasRole(role);
-  }, []);
-
+  const clearError = useCallback(() => { setError(null); }, []);
+  const hasRole = useCallback((role: string): boolean => authService.hasRole(role), []);
   const isAuthenticated = !!token && !!user;
 
-  return {
-    token,
-    user,
-    isAuthenticated,
-    isLoading,
-    error,
-    login,
-    register,
-    logout,
-    clearError,
-    hasRole,
-  };
+  return { token, user, isAuthenticated, isLoading, error, login, register, logout, clearError, hasRole };
 }</code></pre>
-    </div>
-    
-    <div class="code-content" id="auth-service">
-        <pre><code class="javascript">import httpClient from '../utils/httpClient';
+                            </div>
+                            <div class="code-content" id="auth-service">
+                                <pre><code class="javascript">import httpClient from '../utils/httpClient';
 import { API_ENDPOINTS, STORAGE_KEYS } from '../config/constants';
 import { LoginRequest, LoginResponse, RegisterRequest, DecodedToken } from '../types/auth.types';
 import { Utilisateur } from '../types/user.types';
 
 class AuthService {
-  async login(username: string, password: string): Promise<DecodedToken> {
+  async login(username: string, password: string): Promise&lt;DecodedToken&gt; {
     try {
-      const loginData: LoginRequest = {
-        email: username,
-        password: password
-      };
-
-      const response = await httpClient.post<LoginResponse>(
-        API_ENDPOINTS.LOGIN,
-        loginData
-      );
-
+      const loginData: LoginRequest = { email: username, password: password };
+      const response = await httpClient.post&lt;LoginResponse&gt;(API_ENDPOINTS.LOGIN, loginData);
       const { token } = response.data;
-
       this.setToken(token);
-      
       const decoded = this.decodeToken(token);
-      
       this.setUser(decoded);
-
       return decoded;
-
     } catch (error) {
       console.error('Erreur login:', error);
-      
-      if (error instanceof Error) {
-        throw new Error(error.message);
-      } else {
-        throw new Error('Erreur de connexion');
-      }
+      if (error instanceof Error) throw new Error(error.message);
+      else throw new Error('Erreur de connexion');
     }
   }
 
-  async register(data: RegisterRequest): Promise<Utilisateur> {
+  async register(data: RegisterRequest): Promise&lt;Utilisateur&gt; {
     try {
-      const response = await httpClient.post<Utilisateur>(
-        API_ENDPOINTS.USERS,
-        data
-      );
+      const response = await httpClient.post&lt;Utilisateur&gt;(API_ENDPOINTS.USERS, data);
       return response.data;
     } catch (error) {
       console.error('Erreur inscription:', error);
-      
-      if (error instanceof Error) {
-        throw new Error(error.message);
-      } else {
-        throw new Error("Erreur lors de l'inscription");
-      }
+      if (error instanceof Error) throw new Error(error.message);
+      else throw new Error("Erreur lors de l'inscription");
     }
   }
 
@@ -1300,43 +1908,25 @@ class AuthService {
       const decoded = this.decodeToken(token);
       const now = Date.now() / 1000;
       return decoded.exp < now;
-    } catch {
-      return true;
-    }
+    } catch { return true; }
   }
 
-  getToken(): string | null {
-    return localStorage.getItem(STORAGE_KEYS.TOKEN);
-  }
-
-  private setToken(token: string): void {
-    localStorage.setItem(STORAGE_KEYS.TOKEN, token);
-  }
-
+  getToken(): string | null { return localStorage.getItem(STORAGE_KEYS.TOKEN); }
+  private setToken(token: string): void { localStorage.setItem(STORAGE_KEYS.TOKEN, token); }
   private setUser(decoded: DecodedToken): void {
-    const user = {
-      username: decoded.sub,
-      roles: decoded.roles,
-    };
+    const user = { username: decoded.sub, roles: decoded.roles };
     localStorage.setItem(STORAGE_KEYS.USER, JSON.stringify(user));
   }
-
   getUser(): { username: string; roles: string[] } | null {
     const userStr = localStorage.getItem(STORAGE_KEYS.USER);
     if (!userStr) return null;
-    try {
-      return JSON.parse(userStr);
-    } catch {
-      return null;
-    }
+    try { return JSON.parse(userStr); } catch { return null; }
   }
-
   isAuthenticated(): boolean {
     const token = this.getToken();
     if (!token) return false;
     return !this.isTokenExpired(token);
   }
-
   hasRole(role: string): boolean {
     const user = this.getUser();
     if (!user) return false;
@@ -1345,92 +1935,368 @@ class AuthService {
 }
 
 export default new AuthService();</code></pre>
-    </div>
-</div>
-
-                <h3>Documentation Technique projet Frondend</h3>
-                    <p>Consultez la documentation pour mon projet Fronend (→) React.js.</p>
-                    <a href="images/Doc_ProjetSLAM2.pdf" class="btn btn-primary"></a>
-                        <i class="fas fa-download"></i>  Consulter
-                    </a>
-                </div>
-
-                    <!-- Fonctionnalités clés -->
-                    <div class="section-subsection">
-                        <h4>Fonctionnalités Implémentées</h4>
-                        <div class="features-grid">
-                            <div class="feature-card">
-                                <div class="feature-icon auth">
-                                    <i class="fas fa-user-shield"></i>
-                                </div>
-                                <h5>Système d'Authentification</h5>
-                                <ul>
-                                    <li>Inscription/Connexion sécurisée</li>
-                                    <li>JWT pour l'autorisation</li>
-                                    <li>Hachage BCrypt des mots de passe</li>
-                                    <li>Rôles et permissions</li>
-                                </ul>
-                            </div>
-                            <div class="feature-card">
-                                <div class="feature-icon event">
-                                    <i class="fas fa-calendar-alt"></i>
-                                </div>
-                                <h5>Gestion des Événements</h5>
-                                <ul>
-                                    <li>CRUD complet avec validation</li>
-                                    <li>Recherche et filtrage</li>
-                                    <li>Pagination des résultats</li>
-                                    <li>Export PDF des participants</li>
-                                </ul>
-                            </div>
-                            <div class="feature-card">
-                                <div class="feature-icon reservation">
-                                    <i class="fas fa-ticket-alt"></i>
-                                </div>
-                                <h5>Réservations</h5>
-                                <ul>
-                                    <li>Processus de réservation en 3 étapes</li>
-                                    <li>Email de confirmation</li>
-                                    <li>QR Code pour check-in</li>
-                                    <li>Annulation et remboursement</li>
-                                </ul>
                             </div>
                         </div>
-                    </div>
 
-                     <!-- Apprentissages -->
-                    <div class="section-subsection">
-                        <h4>Compétences Acquises</h4>
-                        <div class="learnings-content">
-                            <div class="technical-skills">
-                                <h5>Techniques</h5>
-                                <div class="skills-list">
-                                    <div class="skill-item">
-                                        <div class="skill-meter" data-level="90"></div>
-                                        <span>Développement Full-Stack</span>
-                                    </div>
-                                    <div class="skill-item">
-                                        <div class="skill-meter" data-level="85"></div>
-                                        <span>API REST avec Spring</span>
-                                    </div>
-                                    <div class="skill-item">
-                                        <div class="skill-meter" data-level="80"></div>
-                                        <span>Modélisation de BDD</span>
+                        <div class="section-subsection">
+                            <h3>Documentation Technique projet Frontend</h3>
+                            <p>Consultez la documentation pour mon projet Frontend (→) React.js.</p>
+                            <a href="images/Doc_ProjetSLAM2.pdf" class="btn btn-primary" target="_blank">
+                                <i class="fas fa-download"></i> Consulter
+                            </a>
+                        </div>
+
+                        <div class="section-subsection">
+                            <h4>Fonctionnalités Implémentées</h4>
+                            <div class="features-grid">
+                                <div class="feature-card">
+                                    <div class="feature-icon auth"><i class="fas fa-user-shield"></i></div>
+                                    <h5>Système d'Authentification</h5>
+                                    <ul><li>Inscription/Connexion sécurisée</li><li>JWT pour l'autorisation</li><li>Hachage BCrypt des mots de passe</li><li>Rôles et permissions</li></ul>
+                                </div>
+                                <div class="feature-card">
+                                    <div class="feature-icon event"><i class="fas fa-calendar-alt"></i></div>
+                                    <h5>Gestion des Événements</h5>
+                                    <ul><li>CRUD complet avec validation</li><li>Recherche et filtrage</li><li>Pagination des résultats</li><li>Export PDF des participants</li></ul>
+                                </div>
+                                <div class="feature-card">
+                                    <div class="feature-icon reservation"><i class="fas fa-ticket-alt"></i></div>
+                                    <h5>Réservations</h5>
+                                    <ul><li>Processus de réservation en 3 étapes</li><li>Email de confirmation</li><li>QR Code pour check-in</li><li>Annulation et remboursement</li></ul>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="section-subsection">
+                            <h4>Compétences Acquises</h4>
+                            <div class="learnings-content">
+                                <div class="technical-skills">
+                                    <h5>Techniques</h5>
+                                    <div class="skills-list">
+                                        <div class="skill-item"><div class="skill-meter" data-level="90"></div><span>Développement Full-Stack</span></div>
+                                        <div class="skill-item"><div class="skill-meter" data-level="85"></div><span>API REST avec Spring</span></div>
+                                        <div class="skill-item"><div class="skill-meter" data-level="80"></div><span>Modélisation de BDD</span></div>
                                     </div>
                                 </div>
                             </div>
-                            </div>
                         </div>
+
                     </div>
                 </div>
             </div>
-        </div>
-    </div>
-</section>       
+        </div><!-- /fin Frontend -->
+
+
+        <!-- ─── Projet École 3 : Mobile React Native ─── -->
+        <div class="projet-column">
+            <button class="projet-btn" data-projet="mobile">
+                <div class="btn-icon">
+                    <i class="fas fa-mobile-alt"></i>
+                </div>
+                <div class="btn-content">
+                    <h3>Projet Mobile</h3>
+                    <p>EvenixMobile — Application React Native</p>
+                    <span class="btn-date">Application Mobile Cross-Platform</span>
+                </div>
+                <div class="btn-arrow">
+                    <i class="fas fa-chevron-down"></i>
+                </div>
+            </button>
+
+            <div class="projet-content" id="mobile-content">
+                <div class="project-container">
+                    <div class="project-section">
+                        <div class="project-header">
+                            <div class="project-badge">
+                                <i class="fas fa-mobile-alt"></i>
+                                PROJET MOBILE - REACT NATIVE
+                            </div>
+                            <h3>Application Mobile Événementielle</h3>
+                            <p class="project-subtitle">Développement d'une application mobile connectée au backend Spring Boot avec authentification JWT, navigation et stockage local</p>
+                            <div class="project-links">
+                                <a href="https://github.com/fatoundiaye2000/MonProjetEvenixMobile" class="github-link" target="_blank">
+                                    <i class="fab fa-github"></i> Voir le code Mobile sur GitHub
+                                </a>
+                            </div>
+                        </div>
+
+                        <div class="section-subsection">
+                            <h4>🏗 Architecture de l'Application</h4>
+                            <div class="project-overview">
+                                <div class="overview-text">
+                                    <p>J'ai développé une application mobile cross-platform avec React Native et Expo qui se connecte directement au backend Spring Boot REST déjà réalisé. L'application permet de consulter des événements culturels, de s'authentifier via JWT, de réserver sa participation et de gérer ses favoris en local.</p>
+                                    <div class="key-features">
+                                        <div class="feature"><i class="fas fa-check-circle"></i><span>Authentification sécurisée avec JWT Bearer token</span></div>
+                                        <div class="feature"><i class="fas fa-check-circle"></i><span>Navigation fluide entre les écrans avec React Navigation</span></div>
+                                        <div class="feature"><i class="fas fa-check-circle"></i><span>Consultation et réservation d'événements en temps réel</span></div>
+                                        <div class="feature"><i class="fas fa-check-circle"></i><span>Gestion des favoris persistants avec SQLite local</span></div>
+                                        <div class="feature"><i class="fas fa-check-circle"></i><span>Design minimaliste orange/bleu avec animations fluides</span></div>
+                                        <div class="feature"><i class="fas fa-check-circle"></i><span>Gestion complète des erreurs réseau et codes HTTP</span></div>
+                                    </div>
+                                </div>
+                                <div class="overview-image">
+                                    <img src="images/mobile-screenshot.jpg" alt="Capture d'écran EvenixMobile">
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="section-subsection">
+                            <h4>⚙ Stack Technique</h4>
+                            <div class="tech-stack-grid">
+                                <div class="tech-stack-item"><div class="tech-icon"><i class="fas fa-mobile-alt"></i></div><div class="tech-info"><h5>React Native</h5><p>Framework mobile cross-platform iOS/Android</p></div></div>
+                                <div class="tech-stack-item"><div class="tech-icon"><i class="fas fa-rocket"></i></div><div class="tech-info"><h5>Expo SDK 51</h5><p>Toolchain et test sur mobile via Expo Go</p></div></div>
+                                <div class="tech-stack-item"><div class="tech-icon"><i class="fas fa-route"></i></div><div class="tech-info"><h5>React Navigation</h5><p>Navigation Stack entre les écrans</p></div></div>
+                                <div class="tech-stack-item"><div class="tech-icon"><i class="fas fa-database"></i></div><div class="tech-info"><h5>SQLite (expo-sqlite)</h5><p>Base de données locale pour les favoris</p></div></div>
+                                <div class="tech-stack-item"><div class="tech-icon"><i class="fas fa-save"></i></div><div class="tech-info"><h5>AsyncStorage</h5><p>Stockage persistant du token JWT et données utilisateur</p></div></div>
+                                <div class="tech-stack-item"><div class="tech-icon"><i class="fas fa-shield-alt"></i></div><div class="tech-info"><h5>JWT Bearer Token</h5><p>Authentification sécurisée avec le backend Spring Boot</p></div></div>
+                            </div>
+                        </div>
+
+                        <div class="section-subsection">
+                            <h4>📁 Structure des Composants</h4>
+                            <div class="components-structure">
+                                <div class="components-tree">
+                                    <h5>Arborescence du projet :</h5>
+                                    <pre>
+EvenixMobile/
+├── App.js
+├── navigation/
+│   └── AppNavigator.js
+├── screens/
+│   ├── LoginScreen.js
+│   ├── EventsListScreen.js
+│   ├── EventDetailScreen.js
+│   └── FavoritesScreen.js
+├── services/
+│   ├── api.js
+│   └── favorisService.js
+└── package.json</pre>
+                                </div>
+                                <div class="components-explanation">
+                                    <h5>Fonctionnalités principales :</h5>
+                                    <ul>
+                                        <li><strong>Authentification JWT</strong> : Connexion sécurisée, token sauvegardé localement</li>
+                                        <li><strong>Liste des événements</strong> : Chargement depuis l'API, pull-to-refresh</li>
+                                        <li><strong>Détail et réservation</strong> : Informations complètes, bouton Participer sécurisé</li>
+                                        <li><strong>Favoris SQLite</strong> : Ajout/suppression, persistance locale</li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="section-subsection">
+                            <h4>Extraits de Code</h4>
+                            <div class="code-example">
+                                <div class="code-tabs">
+                                    <button class="code-tab active" data-tab="mob-login">LoginScreen.js</button>
+                                    <button class="code-tab" data-tab="mob-participer">Réservation</button>
+                                    <button class="code-tab" data-tab="mob-sqlite">Favoris SQLite</button>
+                                </div>
+                                <div class="code-content active" id="mob-login">
+                                    <pre><code class="javascript">// LoginScreen.js — Authentification JWT
+const handleLogin = async () => {
+    // Étape 1 : POST /login → récupère { token, roles }
+    const response = await fetch(`${BASE_URL}/login`, {
+        method: 'POST',
+        headers: {
+            'Content-Type': 'application/json',
+            'Accept': 'application/json',
+        },
+        body: JSON.stringify({ email: emailTrimmed, password }),
+    });
+
+    const data = await response.json();
+    const token = data.token;
+
+    // Étape 2 : Récupérer idUser depuis /api/users/all
+    const usersRes = await fetch(`${BASE_URL}/api/users/all`, {
+        headers: { 'Authorization': `Bearer ${token}` },
+    });
+    const users = await usersRes.json();
+    const found = users.find(u => u.email === emailTrimmed);
+
+    // Étape 3 : Sauvegarder dans AsyncStorage
+    await AsyncStorage.setItem('token',     token);
+    await AsyncStorage.setItem('userId',    String(found.idUser));
+    await AsyncStorage.setItem('userRoles', JSON.stringify(data.roles));
+
+    // Naviguer vers la liste des événements
+    navigation.replace('EventsList');
+};</code></pre>
+                                </div>
+                                <div class="code-content" id="mob-participer">
+                                    <pre><code class="javascript">// EventDetailScreen.js — Bouton Participer
+const handleParticiper = async () => {
+    const token  = await AsyncStorage.getItem('token');
+    const userId = await AsyncStorage.getItem('userId');
+
+    if (!token || !userId) {
+        Alert.alert('Non connecté', 'Veuillez vous reconnecter.');
+        navigation.replace('Login');
+        return;
+    }
+
+    const today = new Date().toISOString().split('T')[0];
+
+    const res = await fetch(`${BASE_URL}/api/reservations/save`, {
+        method: 'POST',
+        headers: {
+            'Content-Type': 'application/json',
+            'Authorization': `Bearer ${token}`,
+        },
+        body: JSON.stringify({
+            dateReservation: today,
+            nbrPersonnes:    1,
+            user:      { idUser: parseInt(userId) },
+            evenement: { idEvent: eventId },
+        }),
+    });
+
+    // Gestion des codes HTTP
+    if (res.status === 200 || res.status === 201) {
+        Alert.alert('🎉 Inscription confirmée !');
+        navigation.goBack();
+    } else if (res.status === 401) {
+        await AsyncStorage.multiRemove(['token', 'userId']);
+        navigation.replace('Login');
+    } else if (res.status === 403) {
+        Alert.alert('Accès refusé', 'Rôle ADMIN requis.');
+    } else {
+        Alert.alert('Erreur réseau', 'Serveur inaccessible.');
+    }
+};</code></pre>
+                                </div>
+                                <div class="code-content" id="mob-sqlite">
+                                    <pre><code class="javascript">// services/favorisService.js — Gestion SQLite des favoris
+import * as SQLite from 'expo-sqlite';
+
+const db = SQLite.openDatabaseSync('evenix_favoris.db');
+
+// Initialiser la table au démarrage
+export const initFavorisDB = () => {
+    db.execSync(`
+        CREATE TABLE IF NOT EXISTS favoris (
+            id         INTEGER PRIMARY KEY AUTOINCREMENT,
+            idEvent    INTEGER NOT NULL UNIQUE,
+            titreEvent TEXT,
+            typeEvent  TEXT,
+            dateDebut  TEXT,
+            villeEvent TEXT,
+            addedAt    TEXT DEFAULT (datetime('now'))
+        );
+    `);
+};
+
+// Basculer favori (toggle ❤️ / 🤍)
+export const toggleFavori = (event) => {
+    if (isFavori(event.idEvent)) {
+        db.runSync(
+            'DELETE FROM favoris WHERE idEvent = ?',
+            [event.idEvent]
+        );
+        return false;
+    } else {
+        db.runSync(
+            `INSERT OR IGNORE INTO favoris
+             (idEvent, titreEvent, typeEvent, dateDebut, villeEvent)
+             VALUES (?, ?, ?, ?, ?)`,
+            [event.idEvent, event.titreEvent,
+             event.typeEvent?.nomType || '',
+             event.dateDebut, event.villeEvent || '']
+        );
+        return true;
+    }
+};
+
+// Vérifier si un événement est favori
+export const isFavori = (idEvent) => {
+    const result = db.getFirstSync(
+        'SELECT id FROM favoris WHERE idEvent = ?', [idEvent]
+    );
+    return result !== null;
+};
+
+// Récupérer tous les favoris
+export const getAllFavoris = () =>
+    db.getAllSync(
+        'SELECT * FROM favoris ORDER BY addedAt DESC'
+    );</code></pre>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="section-subsection">
+                            <h3>Documentation Technique projet Mobile</h3>
+                            <p>Consultez la documentation pour mon projet Mobile (→) React Native.</p>
+                            <a href="images/Documentation_Mobile_v2.pdf" class="btn btn-primary" target="_blank">
+                                <i class="fas fa-download"></i> Consulter
+                            </a>
+                        </div>
+
+                        <div class="section-subsection">
+                            <h4>Fonctionnalités Implémentées</h4>
+                            <div class="features-grid">
+                                <div class="feature-card">
+                                    <div class="feature-icon auth"><i class="fas fa-user-shield"></i></div>
+                                    <h5>Authentification Sécurisée</h5>
+                                    <ul><li>Connexion avec email et mot de passe</li><li>Token JWT sauvegardé en AsyncStorage</li><li>Session persistante entre les lancements</li><li>Déconnexion automatique si token expiré</li></ul>
+                                </div>
+                                <div class="feature-card">
+                                    <div class="feature-icon event"><i class="fas fa-calendar-alt"></i></div>
+                                    <h5>Gestion des Événements</h5>
+                                    <ul><li>Liste avec chargement depuis l'API REST</li><li>Pull-to-refresh pour actualiser</li><li>Détail complet avec lieu, date, tarif</li><li>Titre de navigation dynamique</li></ul>
+                                </div>
+                                <div class="feature-card">
+                                    <div class="feature-icon reservation"><i class="fas fa-ticket-alt"></i></div>
+                                    <h5>Réservation</h5>
+                                    <ul><li>POST sécurisé avec Bearer token</li><li>Gestion des codes HTTP 200/401/403</li><li>Spinner pendant l'envoi</li><li>Confirmation par alerte</li></ul>
+                                </div>
+                                <div class="feature-card">
+                                    <div class="feature-icon auth"><i class="fas fa-heart"></i></div>
+                                    <h5>Favoris SQLite</h5>
+                                    <ul><li>Base de données locale expo-sqlite</li><li>Bouton ❤️ sur la liste et le détail</li><li>Persistants après fermeture de l'app</li><li>Écran dédié avec gestion complète</li></ul>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="section-subsection">
+                            <h4>Compétences Acquises</h4>
+                            <div class="learnings-content">
+                                <div class="technical-skills">
+                                    <h5>Techniques</h5>
+                                    <div class="skills-list">
+                                        <div class="skill-item"><div class="skill-meter" data-level="90"></div><span>Développement Mobile React Native</span></div>
+                                        <div class="skill-item"><div class="skill-meter" data-level="88"></div><span>Authentification JWT sur mobile</span></div>
+                                        <div class="skill-item"><div class="skill-meter" data-level="85"></div><span>Persistance locale avec SQLite</span></div>
+                                        <div class="skill-item"><div class="skill-meter" data-level="82"></div><span>Consommation d'API REST avec fetch()</span></div>
+                                    </div>
+                                </div>
+                                <div class="soft-skills">
+                                    <h5>Transversales</h5>
+                                    <ul>
+                                        <li><i class="fas fa-check-circle"></i> Connexion mobile ↔ backend Spring Boot</li>
+                                        <li><i class="fas fa-check-circle"></i> Architecture en couches (screens / navigation / services)</li>
+                                        <li><i class="fas fa-check-circle"></i> Gestion des erreurs réseau et états asynchrones</li>
+                                        <li><i class="fas fa-check-circle"></i> Tests sur appareil réel via Expo Go</li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+        </div><!-- /fin Mobile -->
+
+    </div><!-- /fin projets-grid PROJETS ÉCOLE -->
+
+</section>
 
 
 
 
+
+  
 
 
 
