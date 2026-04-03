@@ -1169,7 +1169,13 @@ body.dark-mode {
     color: var(--primary-color);
 }
 
-.cv-section { display: flex; justify-content: center; align-items: center; }
+.cv-section { 
+    display: flex; 
+    justify-content: center; 
+    align-items: center;
+    gap: 2rem;
+    flex-wrap: wrap;
+}
 
 .cv-card {
     background: #ffffff;
@@ -1177,6 +1183,8 @@ body.dark-mode {
     padding: 2rem;
     text-align: center;
     max-width: 350px;
+    flex: 1 1 auto;
+    min-width: 280px;
     transition: var(--transition);
     box-shadow: 0 5px 20px rgba(0, 0, 0, 0.08);
     border: 1px solid rgba(255, 107, 53, 0.15);
@@ -1445,7 +1453,13 @@ body.dark-mode {
 .contact-details a:hover { color: #FF6B35; }
 
 /* CV Card */
-.cv-section { display: flex; justify-content: center; align-items: center; }
+.cv-section { 
+    display: flex; 
+    justify-content: center; 
+    align-items: center;
+    gap: 2rem;
+    flex-wrap: wrap;
+}
 
 .cv-card {
     background: #ffffff;
@@ -1454,6 +1468,8 @@ body.dark-mode {
     text-align: center;
     max-width: 350px;
     width: 100%;
+    flex: 1 1 auto;
+    min-width: 280px;
     transition: all 0.3s ease;
     box-shadow: 0 5px 20px rgba(0, 0, 0, 0.08);
     border: 1px solid rgba(255, 107, 53, 0.15);
