@@ -879,8 +879,18 @@ body.dark-mode {
     padding: 0.6rem 1.2rem; border-radius: 8px;
     text-decoration: none; font-size: 0.9rem; font-weight: 500;
     border: 1px solid rgba(255,107,53,0.2); transition: var(--transition);
+    margin-right: 0.8rem;
 }
 .github-link:hover { background: rgba(255,107,53,0.08); border-color: var(--primary-color); transform: translateY(-2px); }
+
+.live-link {
+    display: inline-flex; align-items: center; gap: 0.5rem;
+    background: #f0f9ff; color: var(--secondary-color);
+    padding: 0.6rem 1.2rem; border-radius: 8px;
+    text-decoration: none; font-size: 0.9rem; font-weight: 500;
+    border: 1px solid rgba(79,195,247,0.3); transition: var(--transition);
+}
+.live-link:hover { background: rgba(79,195,247,0.1); border-color: var(--secondary-color); transform: translateY(-2px); }
 
 /* Components tree */
 .components-structure { margin-top: 1.5rem; }
