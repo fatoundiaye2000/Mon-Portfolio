@@ -1074,6 +1074,143 @@ body.dark-mode {
     .comparison-table th, .comparison-table td { padding: 0.5rem; }
 }
 
+/* Nouvelles sections Veille Technologique - Actualités */
+.veille-intro {
+    background: linear-gradient(135deg, rgba(255,107,53,0.08), rgba(79,195,247,0.08));
+    border: 1px solid rgba(255,107,53,0.2);
+    text-align: center;
+    font-size: 1.1rem;
+    line-height: 1.8;
+}
+
+.veille-intro p {
+    color: #333;
+    margin: 0;
+}
+
+.veille-intro strong {
+    color: var(--primary-color);
+}
+
+.veille-sources {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 1.5rem;
+    margin: 2rem 0;
+}
+
+.source-card {
+    background: #ffffff;
+    border: 2px solid rgba(255,107,53,0.15);
+    border-radius: 12px;
+    padding: 1.5rem;
+    text-align: center;
+    transition: all 0.3s ease;
+    box-shadow: 0 3px 10px rgba(0,0,0,0.05);
+}
+
+.source-card:hover {
+    border-color: var(--primary-color);
+    transform: translateY(-5px);
+    box-shadow: 0 8px 20px rgba(255,107,53,0.15);
+}
+
+.source-card h3 {
+    color: var(--primary-color);
+    font-size: 1.3rem;
+    margin-bottom: 0.8rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 0.5rem;
+}
+
+.source-card p {
+    color: #666;
+    font-size: 0.95rem;
+    line-height: 1.5;
+    margin: 0;
+}
+
+.veille-articles {
+    margin: 2rem 0;
+}
+
+.articles-title {
+    color: var(--primary-color);
+    font-size: 1.5rem;
+    margin-bottom: 2rem;
+    border-bottom: 3px solid var(--primary-color);
+    padding-bottom: 1rem;
+    font-weight: 600;
+}
+
+.article-item {
+    background: #f8f9fa;
+    border-left: 4px solid var(--primary-color);
+    padding: 1.5rem;
+    margin-bottom: 1.5rem;
+    border-radius: 8px;
+    transition: all 0.3s ease;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.04);
+}
+
+.article-item:hover {
+    transform: translateX(5px);
+    box-shadow: 0 5px 15px rgba(255,107,53,0.1);
+    background: #ffffff;
+}
+
+.article-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 0.8rem;
+    gap: 1rem;
+    flex-wrap: wrap;
+}
+
+.article-source {
+    color: var(--primary-color);
+    font-weight: 600;
+    font-size: 0.95rem;
+    display: flex;
+    align-items: center;
+    gap: 0.3rem;
+}
+
+.article-date {
+    color: #888;
+    font-size: 0.9rem;
+    font-style: italic;
+}
+
+.article-item .article-title {
+    color: var(--text-dark);
+    font-size: 1.15rem;
+    font-weight: 600;
+    margin: 0.5rem 0;
+    line-height: 1.4;
+}
+
+.article-description {
+    color: #666;
+    font-size: 0.95rem;
+    line-height: 1.6;
+    margin: 0;
+}
+
+@media (max-width: 768px) {
+    .veille-sources {
+        grid-template-columns: 1fr;
+    }
+    
+    .article-header {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+}
+
 /* =============================================
    CONTACT — fond blanc
 ============================================= */
@@ -1916,5 +2053,278 @@ body.dark-mode .deployment-list li {
     .btn-deployment {
         font-size: 0.9rem;
         padding: 0.8rem 1.5rem;
+    }
+}
+
+/* ══════════════════════════════════════════════════════════════ */
+/* STYLES FOR PROJECT ACCESS AND CREDENTIALS */
+/* ══════════════════════════════════════════════════════════════ */
+
+/* Lien de déploiement */
+.deployment-link-box {
+    background: linear-gradient(135deg, rgba(255, 107, 53, 0.08), rgba(79, 195, 247, 0.08));
+    border: 2px solid rgba(255, 107, 53, 0.3);
+    border-radius: 12px;
+    padding: 1rem;
+    margin: 1rem 0;
+    transition: all 0.3s ease;
+}
+
+.deployment-link-box:hover {
+    background: linear-gradient(135deg, rgba(255, 107, 53, 0.12), rgba(79, 195, 247, 0.12));
+    border-color: var(--primary-color);
+    box-shadow: 0 4px 12px rgba(255, 107, 53, 0.2);
+}
+
+.deployment-link {
+    display: inline-flex;
+    align-items: center;
+    gap: 0.8rem;
+    color: var(--primary-color);
+    text-decoration: none;
+    font-weight: 600;
+    transition: all 0.3s ease;
+    word-break: break-all;
+}
+
+.deployment-link:hover {
+    color: #FF9A6C;
+    gap: 1rem;
+}
+
+.deployment-link i {
+    font-size: 1.1rem;
+    flex-shrink: 0;
+}
+
+body.dark-mode .deployment-link-box {
+    background: linear-gradient(135deg, rgba(255, 107, 53, 0.1), rgba(79, 195, 247, 0.1));
+    border-color: rgba(255, 107, 53, 0.25);
+}
+
+/* Grille des identifiants */
+.credentials-grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 1.5rem;
+    margin: 1.5rem 0;
+}
+
+.credential-card {
+    background: #f9f9f9;
+    border: 2px solid #e0e0e0;
+    border-radius: 12px;
+    overflow: hidden;
+    transition: all 0.3s ease;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.05);
+}
+
+.credential-card:hover {
+    transform: translateY(-4px);
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.1);
+    border-color: var(--primary-color);
+}
+
+.credential-card.admin {
+    border-top: 4px solid #FF6B35;
+}
+
+.credential-card.user {
+    border-top: 4px solid #4FC3F7;
+}
+
+.credential-header {
+    background: linear-gradient(135deg, rgba(255, 107, 53, 0.1), rgba(79, 195, 247, 0.1));
+    padding: 1rem;
+    display: flex;
+    align-items: center;
+    gap: 0.8rem;
+    font-weight: 600;
+    font-size: 1rem;
+    border-bottom: 1px solid rgba(255, 107, 53, 0.2);
+}
+
+.credential-card.admin .credential-header {
+    background: linear-gradient(135deg, rgba(255, 107, 53, 0.15), rgba(255, 107, 53, 0.05));
+    color: #FF6B35;
+}
+
+.credential-card.user .credential-header {
+    background: linear-gradient(135deg, rgba(79, 195, 247, 0.15), rgba(79, 195, 247, 0.05));
+    color: #4FC3F7;
+}
+
+.credential-header i {
+    font-size: 1.2rem;
+}
+
+.credential-body {
+    padding: 1rem;
+}
+
+.credential-field {
+    margin-bottom: 1rem;
+}
+
+.credential-field:last-of-type {
+    margin-bottom: 1.2rem;
+}
+
+.credential-field label {
+    display: block;
+    font-weight: 600;
+    margin-bottom: 0.5rem;
+    font-size: 0.9rem;
+    color: #666;
+}
+
+body.dark-mode .credential-field label {
+    color: #aaa;
+}
+
+.credential-value {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+    background: white;
+    border: 1px solid #ddd;
+    border-radius: 6px;
+    overflow: hidden;
+    transition: all 0.3s ease;
+}
+
+body.dark-mode .credential-value {
+    background: #2d2d2d;
+    border-color: #444;
+}
+
+.credential-value input {
+    flex: 1;
+    border: none;
+    padding: 0.7rem;
+    font-family: 'Courier New', monospace;
+    font-size: 0.95rem;
+    background: transparent;
+    color: inherit;
+    outline: none;
+}
+
+body.dark-mode .credential-value input {
+    color: #fff;
+}
+
+.credential-value input::selection {
+    background-color: rgba(255, 107, 53, 0.3);
+}
+
+.copy-btn,
+.toggle-pwd-btn {
+    background: none;
+    border: none;
+    padding: 0.7rem;
+    cursor: pointer;
+    color: var(--primary-color);
+    font-size: 1rem;
+    transition: all 0.2s ease;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.copy-btn:hover,
+.toggle-pwd-btn:hover {
+    color: #FF9A6C;
+    transform: scale(1.1);
+}
+
+.copy-btn:active,
+.toggle-pwd-btn:active {
+    transform: scale(0.95);
+}
+
+body.dark-mode .copy-btn,
+body.dark-mode .toggle-pwd-btn {
+    color: #4FC3F7;
+}
+
+body.dark-mode .copy-btn:hover,
+body.dark-mode .toggle-pwd-btn:hover {
+    color: #5DADE2;
+}
+
+/* Badges de permissions */
+.credential-permissions {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.5rem;
+}
+
+.badge {
+    display: inline-block;
+    padding: 0.4rem 0.8rem;
+    border-radius: 20px;
+    font-size: 0.8rem;
+    font-weight: 600;
+    background: rgba(0, 0, 0, 0.05);
+    color: #666;
+}
+
+.badge-admin {
+    background: rgba(255, 107, 53, 0.15);
+    color: #FF6B35;
+}
+
+.badge-user {
+    background: rgba(79, 195, 247, 0.15);
+    color: #4FC3F7;
+}
+
+body.dark-mode .badge {
+    background: rgba(255, 255, 255, 0.1);
+    color: #bbb;
+}
+
+body.dark-mode .badge-admin {
+    background: rgba(255, 107, 53, 0.2);
+    color: #FF9A6C;
+}
+
+body.dark-mode .badge-user {
+    background: rgba(79, 195, 247, 0.2);
+    color: #5DADE2;
+}
+
+/* Responsive credentials grid */
+@media (max-width: 768px) {
+    .credentials-grid {
+        grid-template-columns: 1fr;
+        gap: 1.2rem;
+    }
+
+    .credential-card {
+        border-radius: 10px;
+    }
+
+    .credential-header {
+        padding: 0.8rem;
+        font-size: 0.95rem;
+    }
+
+    .credential-body {
+        padding: 0.8rem;
+    }
+
+    .credential-field {
+        margin-bottom: 0.8rem;
+    }
+
+    .credential-value {
+        font-size: 0.85rem;
+    }
+
+    .copy-btn,
+    .toggle-pwd-btn {
+        padding: 0.5rem;
+        font-size: 0.9rem;
     }
 }
