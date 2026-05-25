@@ -985,8 +985,8 @@ LIMIT 50;</code></pre>
                             <div class="overview-text">
                                 <p>La première semaine a été consacrée à la découverte et à la configuration complète de l'environnement de développement. Avant de pouvoir tester ou corriger quoi que ce soit, il était indispensable de comprendre l'architecture globale du projet et de mettre en place un espace de travail isolé.</p>
                                 <div class="key-features">
-                                    <div class="feature"><i class="fas fa-check-circle"></i><span><strong>Code source du stage</strong> : <a href="https://github.com/Amazighiahub/actionCultureDZ" target="_blank" rel="noreferrer">https://github.com/Amazighiahub/actionCultureDZ</a>, avec ma branche personnelle <code>fatouNdiaye</code> pour travailler isolée en équipe.</span></div>
-                                <div class="feature"><i class="fas fa-check-circle"></i><span><strong>Installation des dépendances</strong> Node.js avec <code>npm install</code> pour le backend et le frontend séparément</span></div>
+                                    <div class="feature"><i class="fas fa-check-circle"></i><span><strong>Code source du stage et le liens en ligne du projet</strong> : <a href="https://github.com/Amazighiahub/actionCultureDZ" target="_blank" rel="noreferrer">https://github.com/Amazighiahub/actionCultureDZ</a> et <a href="https://taladz.com" target="_blank" rel="noreferrer">https://taladz.com</a>, avec ma branche personnelle <code>fatouNdiaye</code> pour travailler isolée en équipe.</span></div>
+                                    <div class="feature"><i class="fas fa-check-circle"></i><span><strong>Installation des dépendances</strong> Node.js avec <code>npm install</code> pour le backend et le frontend séparément</span></div>
                                     <div class="feature"><i class="fas fa-check-circle"></i><span><strong>Configuration de la base de données MySQL</strong> (<code>actionculture_dz</code>) via MAMP, import du schéma SQL et des données de seed (15 œuvres : livres, films, albums)</span></div>
                                     <div class="feature"><i class="fas fa-check-circle"></i><span><strong>Lancement des serveurs locaux</strong> : backend sur <code>localhost:3001</code> et frontend sur <code>localhost:8080</code></span></div>
                                     <div class="feature"><i class="fas fa-check-circle"></i><span><strong>Exploration de l'architecture full-stack</strong> : lecture des fichiers de configuration, des routes Express, des modèles Sequelize et des composants React/TypeScript</span></div>
@@ -1729,7 +1729,7 @@ npm run test:watch          # Mode watch
                             <h3>API REST pour Application Événementielle</h3>
                             <p class="project-subtitle">Développement du backend avec Spring Boot, sécurité JWT et base MySQL</p>
                             <div class="project-links">
-                                <a href="https://github.com/fatoundiaye2000/MonProjetBackEnd.git" class="github-link" target="_blank">
+                                <a href="https://github.com/fatoundiaye2000/-MonProjet_Backend_Frontend.git" class="github-link" target="_blank">
                                     <i class="fab fa-github"></i> Voir le code Backend sur GitHub
                                 </a>
                             </div>
@@ -1990,7 +1990,7 @@ public interface EvenementRepository extends JpaRepository&lt;Evenement, Long&gt
                             <h3>Interface Utilisateur Moderne</h3>
                             <p class="project-subtitle">Développement du frontend avec React.js, gestion d'état et design responsive</p>
                             <div class="project-links">
-                                <a href="https://github.com/fatoundiaye2000/MonProjetFrontEnd.git" class="github-link" target="_blank">
+                                <a href="https://github.com/fatoundiaye2000/-MonProjet_Backend_Frontend.git" class="github-link" target="_blank">
                                     <i class="fab fa-github"></i> Voir le code Frontend sur GitHub
                                 </a>
                             </div>
@@ -2438,7 +2438,7 @@ export default new AuthService();</code></pre>
                             <h3>Application Mobile Événementielle</h3>
                             <p class="project-subtitle">Développement d'une application mobile connectée au backend Spring Boot avec authentification JWT, navigation et stockage local</p>
                             <div class="project-links">
-                                <a href="https://github.com/fatoundiaye2000/MonProjetEvenixMobile" class="github-link" target="_blank">
+                                <a href="https://github.com/fatoundiaye2000/MonProjetMobile-Backend.git" class="github-link" target="_blank">
                                     <i class="fab fa-github"></i> Voir le code Mobile sur GitHub
                                 </a>
                             </div>
@@ -3184,322 +3184,209 @@ navLinks.forEach(link => {
 
 
     <!-- Section Veille Technologique -->
-    
-         <!-- Section Veille Technologique -->
 <section id="veille-technologique" class="section">
     <div class="section-header">
         <h2 class="section-title">Veille <span>Technologique</span></h2>
         <div class="section-line"></div>
-        <p class="section-subtitle">Les Pare-feux : Évolution Stratégique face à la Cybermenace Contemporaine</p>
+        <p class="section-subtitle">Cybersécurité : Pare-feux NGFW, Zero Trust & Menaces Actuelles</p>
     </div>
 
-    <div class="veille-content">
-        <!-- Introduction -->
-        <div class="veille-section">
-            <h3 class="veille-section-title">
-                <i class="fas fa-door-open"></i>
-                Introduction
-            </h3>
-            <div class="intro-box">
-                <h4>Contexte de la Cybersécurité en 2024-2025</h4>
-                <p>Dans un contexte où les cyberattaques se multiplient et se sophistiquent, les pare-feux de nouvelle génération (NGFW) sont devenus des éléments indispensables des infrastructures de sécurité. Cette veille technologique analyse l'évolution des pare-feux, leur marché actuel et les tendances qui façonnent l'avenir de la cybersécurité.</p>
-            </div>
+    <!-- Grille de Thèmes de Veille -->
+    <div class="projets-grid">
 
-            <div class="stats-grid">
-                <div class="stat-card">
-                    <div class="stat-number">5 414</div>
-                    <div class="stat-label">attaques ransomware dans le monde en 2024</div>
-                    <div class="source">Check Point, janvier 2025</div>
+        <!-- Thème 1: NGFW -->
+        <div class="projet-column">
+            <button class="projet-btn active" data-projet="ngfw">
+                <div class="btn-icon">
+                    <i class="fas fa-shield-alt"></i>
                 </div>
-                <div class="stat-card">
-                    <div class="stat-number">+40%</div>
-                    <div class="stat-label">d'augmentation vs 2023</div>
-                    <div class="source">Check Point, janvier 2025</div>
+                <div class="btn-content">
+                    <h3>NGFW (Pare-feux de Nouvelle Génération)</h3>
+                    <p>Evolution et capacités des pare-feux modernes</p>
+                    <span class="btn-date">Sujet principal de veille</span>
                 </div>
-                <div class="stat-card">
-                    <div class="stat-number">74%</div>
-                    <div class="stat-label">des entreprises françaises touchées par ransomware</div>
-                    <div class="source">Sophos, avril 2024</div>
+                <div class="btn-arrow">
+                    <i class="fas fa-chevron-down"></i>
                 </div>
-                <div class="stat-card">
-                    <div class="stat-number">19,2 Md$</div>
-                    <div class="stat-label">marché Zero Trust Architecture en 2024</div>
-                    <div class="source">Global Market Insights, novembre 2024</div>
-                </div>
-                <div class="stat-card">
-                    <div class="stat-number">5,11 Md$</div>
-                    <div class="stat-label">marché NGFW en 2024</div>
-                    <div class="source">Verified Market Reports, février 2025</div>
-                </div>
-                <div class="stat-card">
-                    <div class="stat-number">17,5%</div>
-                    <div class="stat-label">taux de croissance annuel prévu (TCAC) jusqu'en 2030</div>
-                    <div class="source">Verified Market Reports, février 2025</div>
-                </div>
-            </div>
-        </div>
+            </button>
 
-        <!-- Évolution Technologique -->
-        <div class="veille-section">
-            <h3 class="veille-section-title">
-                <i class="fas fa-chart-line"></i>
-                I. Évolution des Pare-feux : Du Filtrage Simple aux NGFW
-            </h3>
-
-            <div class="content-box">
-                <h4>Définition : Qu'est-ce qu'un NGFW ?</h4>
-                <p>Un pare-feu de nouvelle génération (NGFW) est un dispositif de sécurité qui traite et filtre le trafic réseau avec des capacités avancées dépassant les pare-feux traditionnels. Les NGFW possèdent des fonctionnalités supplémentaires qui permettent d'identifier les dernières menaces de manière plus efficace.</p>
-                <p><strong>Source :</strong> Cloudflare Learning Center</p>
-            </div>
-
-            <div class="evolution-timeline">
-                <div class="timeline-item">
-                    <div class="timeline-date">1990s</div>
-                    <div class="timeline-content">
-                        <h4>Firewalls Stateless (1ère génération)</h4>
-                        <p><strong>Fonctionnement :</strong> Filtrage basique basé uniquement sur les adresses IP et les numéros de ports</p>
-                        <p><strong>Limitation :</strong> Analyse limitée aux couches 3-4 du modèle OSI (réseau et transport)</p>
-                        <p><strong>Efficacité :</strong> Protection minimale contre les menaces modernes</p>
+            <div class="projet-content active" id="ngfw-content">
+                <div class="stage-container">
+                    <div class="stage-header">
+                        <div class="company-logo">
+                            <i class="fas fa-shield-alt" style="font-size: 3rem; color: #FF6B35;"></i>
+                        </div>
+                        <div class="stage-info">
+                            <h3>Pare-feux de Nouvelle Génération (NGFW)</h3>
+                            <p class="company-name">Évolution technologique majeure 2024-2025</p>
+                        </div>
                     </div>
-                </div>
-
-                <div class="timeline-item">
-                    <div class="timeline-date">2000s</div>
-                    <div class="timeline-content">
-                        <h4>Firewalls Stateful (2ème génération)</h4>
-                        <p><strong>Fonctionnement :</strong> Suivi de l'état des connexions réseau avec mémorisation du contexte</p>
-                        <p><strong>Innovation :</strong> Inspection plus approfondie des paquets avec analyse contextuelle</p>
-                        <p><strong>Avantage :</strong> Meilleure détection des connexions illégitimes</p>
+                    
+                    <div class="stage-description">
+                        <h4>Définition & Contexte</h4>
+                        <p>Un <strong>NGFW (Next Generation Firewall)</strong> est un dispositif de sécurité avancé qui filtre le trafic réseau au-delà des couches 3-4 (réseau/transport), jusqu'à la couche 7 (applicative). À différence des pare-feux traditionnels, les NGFW offrent:</p>
+                        <ul style="margin: 1rem 0 1rem 2rem; line-height: 1.8;">
+                            <li><strong>Inspection profonde (DPI)</strong> - Analyse du contenu réel des données</li>
+                            <li><strong>Identification d'applications</strong> - Au-delà des ports/protocoles</li>
+                            <li><strong>Intégration IPS/IDS</strong> - Prévention et détection des intrusions</li>
+                            <li><strong>Contrôle utilisateur</strong> - Authentification et autorisations granulaires</li>
+                            <li><strong>IA & Machine Learning</strong> - Détection comportementale des menaces</li>
+                        </ul>
                     </div>
-                </div>
 
-                <div class="timeline-item">
-                    <div class="timeline-date">2010s</div>
-                    <div class="timeline-content">
-                        <h4>NGFW - Next Generation Firewall (3ème génération)</h4>
-                        <p><strong>Fonctionnement :</strong> Inspection profonde jusqu'à la couche 7 (applicative)</p>
-                        <p><strong>Capacités :</strong> Identification des applications, intégration IPS/IDS, contrôle des utilisateurs</p>
-                        <p><strong>Innovation majeure :</strong> Définition formalisée par Gartner en 2012</p>
+                    <div class="section-subsection">
+                        <h4>Statistiques du Marché NGFW (2024-2025)</h4>
+                        <div class="stats-grid">
+                            <div class="stat-card">
+                                <div class="stat-number">5,11 Md$</div>
+                                <div class="stat-label">Marché NGFW global en 2024</div>
+                                <div class="source">Verified Market Reports, février 2025</div>
+                            </div>
+                            <div class="stat-card">
+                                <div class="stat-number">17,5%</div>
+                                <div class="stat-label">Taux de croissance annuel (TCAC) jusqu'en 2030</div>
+                                <div class="source">Verified Market Reports</div>
+                            </div>
+                            <div class="stat-card">
+                                <div class="stat-number">5 414</div>
+                                <div class="stat-label">Attaques ransomware mondiales en 2024</div>
+                                <div class="source">Check Point, janvier 2025</div>
+                            </div>
+                            <div class="stat-card">
+                                <div class="stat-number">+40%</div>
+                                <div class="stat-label">Augmentation vs 2023</div>
+                                <div class="source">Check Point, janvier 2025</div>
+                            </div>
+                        </div>
                     </div>
-                </div>
 
-                <div class="timeline-item">
-                    <div class="timeline-date">2024-2025</div>
-                    <div class="timeline-content">
-                        <h4>NGFW + Intelligence Artificielle (4ème génération)</h4>
-                        <p><strong>Fonctionnement :</strong> Détection comportementale pilotée par l'IA et Machine Learning</p>
-                        <p><strong>Capacités :</strong> Analyse prédictive, réponse automatisée, détection des menaces zero-day</p>
-                        <p><strong>Source :</strong> Nomios, décembre 2024 & Cloudflare</p>
+                    <div class="section-subsection">
+                        <h4>Leaders du Marché</h4>
+                        <div class="skills-section">
+                            <div class="skill-item"><div class="skill-meter" data-level="95"></div><span>Palo Alto Networks</span></div>
+                            <div class="skill-item"><div class="skill-meter" data-level="92"></div><span>Fortinet FortiGate</span></div>
+                            <div class="skill-item"><div class="skill-meter" data-level="88"></div><span>Cisco Meraki</span></div>
+                            <div class="skill-item"><div class="skill-meter" data-level="85"></div><span>Checkpoint</span></div>
+                            <div class="skill-item"><div class="skill-meter" data-level="82"></div><span>Juniper SRX</span></div>
+                        </div>
                     </div>
                 </div>
             </div>
         </div>
 
-        <!-- Fonctionnalités NGFW -->
-        <div class="veille-section">
-            <h3 class="veille-section-title">
-                <i class="fas fa-cogs"></i>
-                II. Fonctionnalités Clés des NGFW Modernes
-            </h3>
-
-            <div class="features-grid">
-                <div class="feature-card">
-                    <div class="feature-icon">🔍</div>
-                    <h4>Inspection Profonde des Paquets (DPI)</h4>
-                    <p>Analyse complète du contenu des paquets au-delà des en-têtes. Les NGFW examinent les données applicatives et peuvent détecter des menaces cachées dans le contenu.</p>
-                    <div class="source">Source : Cloudflare Learning Center</div>
+        <!-- Thème 2: Zero Trust Architecture -->
+        <div class="projet-column">
+            <button class="projet-btn" data-projet="zerotrust">
+                <div class="btn-icon">
+                    <i class="fas fa-lock"></i>
                 </div>
-
-                <div class="feature-card">
-                    <div class="feature-icon">🎯</div>
-                    <h4>Contrôle des Applications</h4>
-                    <p>Identification et contrôle des applications indépendamment des ports et protocoles utilisés. Permet de bloquer des applications spécifiques.</p>
-                    <div class="source">Source : Cloudflare & Insyncom</div>
+                <div class="btn-content">
+                    <h3>Zero Trust Architecture</h3>
+                    <p>Paradigme "Never Trust, Always Verify"</p>
+                    <span class="btn-date">Tendance sécurité 2025</span>
                 </div>
-
-                <div class="feature-card">
-                    <div class="feature-icon">🛡️</div>
-                    <h4>Système de Prévention d'Intrusion (IPS)</h4>
-                    <p>Détection et blocage automatique des menaces connues et potentielles via signatures et analyse comportementale.</p>
-                    <div class="source">Source : Cloudflare & Insyncom</div>
+                <div class="btn-arrow">
+                    <i class="fas fa-chevron-down"></i>
                 </div>
+            </button>
 
-                <div class="feature-card">
-                    <div class="feature-icon">🧠</div>
-                    <h4>Intelligence des Menaces</h4>
-                    <p>Intégration de flux de renseignements sur les menaces en temps réel. Maintient à jour les signatures de malwares.</p>
-                    <div class="source">Source : Cloudflare</div>
-                </div>
+            <div class="projet-content" id="zerotrust-content">
+                <div class="stage-container">
+                    <div class="stage-header">
+                        <div class="company-logo">
+                            <i class="fas fa-lock" style="font-size: 3rem; color: #FF6B35;"></i>
+                        </div>
+                        <div class="stage-info">
+                            <h3>Zero Trust Architecture (ZTA)</h3>
+                            <p class="company-name">Modèle de sécurité révolutionnaire</p>
+                        </div>
+                    </div>
 
-                <div class="feature-card">
-                    <div class="feature-icon">👤</div>
-                    <h4>Identification Utilisateur</h4>
-                    <p>Contrôle d'accès basé sur l'identité des utilisateurs et non uniquement sur les adresses IP.</p>
-                    <div class="source">Source : Insyncom</div>
-                </div>
+                    <div class="stage-description">
+                        <h4>Principe Fondamental</h4>
+                        <p><strong>"Never Trust, Always Verify"</strong> - Zero Trust rejette l'approche traditionnelle de "périmètre de sécurité". Chaque accès réseau, utilisateur et application est traité comme potentiellement hostile jusqu'à preuve du contraire.</p>
+                        <h4 style="margin-top: 1.5rem;">Piliers de Zero Trust</h4>
+                        <ul style="margin: 1rem 0 1rem 2rem; line-height: 1.8;">
+                            <li><strong>Authentification Multi-facteurs (MFA)</strong> - Vérification rigoureuse d'identité</li>
+                            <li><strong>Microsegmentation</strong> - Isolation du réseau en petits domaines</li>
+                            <li><strong>Principe du Moindre Privilège</strong> - Accès minimal nécessaire seulement</li>
+                            <li><strong>Inspection Continue</strong> - Validation permanente des menaces</li>
+                            <li><strong>Chiffrement Systématique</strong> - Tous les échanges chiffrés end-to-end</li>
+                        </ul>
+                    </div>
 
-                <div class="feature-card">
-                    <div class="feature-icon">🔐</div>
-                    <h4>Déchiffrement SSL/TLS</h4>
-                    <p>Inspection du trafic chiffré pour détecter les menaces cachées dans les communications HTTPS.</p>
-                    <div class="source">Source : Nomios, décembre 2024</div>
-                </div>
-            </div>
-        </div>
+                    <div class="section-subsection">
+                        <h4>Marché et Adoption</h4>
+                        <div class="stats-grid">
+                            <div class="stat-card">
+                                <div class="stat-number">19,2 Md$</div>
+                                <div class="stat-label">Marché Zero Trust Architecture en 2024</div>
+                                <div class="source">Global Market Insights, nov 2024</div>
+                            </div>
+                            <div class="stat-card">
+                                <div class="stat-number">74%</div>
+                                <div class="stat-label">Entreprises françaises touchées par ransomware</div>
+                                <div class="source">Sophos, avril 2024</div>
+                            </div>
+                        </div>
+                    </div>
 
-        <!-- Marché et Acteurs -->
-        <div class="veille-section">
-            <h3 class="veille-section-title">
-                <i class="fas fa-chart-bar"></i>
-                III. Marché des NGFW et Principaux Acteurs
-            </h3>
-
-            <div class="content-box">
-                <h4>État du Marché 2024-2025</h4>
-                <p>Le marché des pare-feux de nouvelle génération connaît une croissance soutenue portée par l'augmentation des cybermenaces et l'adoption du cloud.</p>
-                <ul>
-                    <li><strong>Taille du marché :</strong> 5,11 milliards USD en 2024</li>
-                    <li><strong>Prévision 2033 :</strong> 13,45 milliards USD</li>
-                    <li><strong>Taux de croissance :</strong> TCAC de 11,5% à 17,5% selon les sources</li>
-                    <li><strong>Source :</strong> Verified Market Reports (février 2025), Mordor Intelligence</li>
-                </ul>
-            </div>
-
-            <div class="comparison-table-container">
-                <h4>🏆 Leaders du Marché 2024-2025</h4>
-                <table class="comparison-table">
-                    <thead>
-                        <tr>
-                            <th>Acteur</th>
-                            <th>Position</th>
-                            <th>Points Forts</th>
-                            <th>Source</th>
-                        </tr>
-                    </thead>
-                    <tbody>
-                        <tr>
-                            <td><strong>Palo Alto Networks</strong></td>
-                            <td>Leader (10 ans consécutifs)</td>
-                            <td>Architecture à passage unique, inspection complète du trafic</td>
-                            <td>Nomios, décembre 2024</td>
-                        </tr>
-                        <tr>
-                            <td><strong>Fortinet (FortiGate)</strong></td>
-                            <td>Leader</td>
-                            <td>+50% de parts de marché, processeurs SP5, détection IA</td>
-                            <td>Fortinet.com, Nomios décembre 2024</td>
-                        </tr>
-                        <tr>
-                            <td><strong>Cisco Systems</strong></td>
-                            <td>Acteur majeur</td>
-                            <td>Intégration complète avec écosystème réseau</td>
-                            <td>Verified Market Reports 2025</td>
-                        </tr>
-                        <tr>
-                            <td><strong>Check Point</strong></td>
-                            <td>Acteur majeur</td>
-                            <td>Solutions de sécurité complètes</td>
-                            <td>Verified Market Reports 2025</td>
-                        </tr>
-                    </tbody>
-                </table>
-            </div>
-        </div>
-
-        <!-- Zero Trust -->
-        <div class="veille-section">
-            <h3 class="veille-section-title">
-                <i class="fas fa-shield-alt"></i>
-                IV. Zero Trust Architecture
-            </h3>
-
-            <div class="content-box">
-                <h4>Qu'est-ce que le Zero Trust ?</h4>
-                <p>Le Zero Trust est une approche de sécurité basée sur le principe "Ne jamais faire confiance, toujours vérifier". Contrairement aux modèles traditionnels qui font confiance à tout ce qui est à l'intérieur du périmètre réseau, le Zero Trust assume que des menaces peuvent exister partout.</p>
-                <p><strong>Source :</strong> NIST SP 800-207, SANS Institute 2024</p>
-            </div>
-
-            <div class="stats-grid">
-                <div class="stat-card">
-                    <div class="stat-number">19,2 Md$</div>
-                    <div class="stat-label">Marché Zero Trust en 2024</div>
-                    <div class="source">Global Market Insights, nov. 2024</div>
-                </div>
-                <div class="stat-card">
-                    <div class="stat-number">17,4%</div>
-                    <div class="stat-label">Taux de croissance annuel prévu</div>
-                    <div class="source">Global Market Insights, nov. 2024</div>
-                </div>
-                <div class="stat-card">
-                    <div class="stat-number">Sept. 2024</div>
-                    <div class="stat-label">Deadline implémentation US</div>
-                    <div class="source">OMB M-22-09</div>
+                    <div class="section-subsection">
+                        <h4>Implémentation Typique</h4>
+                        <div class="code-example" style="background: #f9f9f9; padding: 1.25rem; border-radius: 8px; border-left: 4px solid #FF6B35;">
+                            <p><strong>Étapes clés :</strong></p>
+                            <p>1. Identifier & cartographier tous les assets</p>
+                            <p>2. Créer des politiques de contrôle d'accès</p>
+                            <p>3. Implémenter la microsegmentation</p>
+                            <p>4. Deployer MFA et chiffrement</p>
+                            <p>5. Monitorer et adapter continuellement</p>
+                        </div>
+                    </div>
                 </div>
             </div>
         </div>
 
-        <!-- Menaces -->
-        <div class="veille-section">
-            <h3 class="veille-section-title">
-                <i class="fas fa-exclamation-triangle"></i>
-                V. Menaces Cyber 2024
-            </h3>
+        <!-- Thème 3: Articles & Sources Actuels -->
+        <div class="projet-column">
+            <button class="projet-btn" data-projet="articles">
+                <div class="btn-icon">
+                    <i class="fas fa-rss"></i>
+                </div>
+                <div class="btn-content">
+                    <h3>Derniers Articles (Flux RSS)</h3>
+                    <p>Cybersécurité en temps réel</p>
+                    <span class="btn-date">Sources: Bleeping Computer, Krebs, Dark Reading</span>
+                </div>
+                <div class="btn-arrow">
+                    <i class="fas fa-chevron-down"></i>
+                </div>
+            </button>
 
-            <div class="content-box">
-                <h4>🦠 Panorama des Ransomwares 2024</h4>
-                <p>L'année 2024 a été marquée par une explosion des attaques par ransomware avec une sophistication accrue des cybercriminels.</p>
-            </div>
+            <div class="projet-content" id="articles-content">
+                <div class="stage-container">
+                    <div class="stage-header">
+                        <div class="company-logo">
+                            <i class="fas fa-newspaper" style="font-size: 3rem; color: #FF6B35;"></i>
+                        </div>
+                        <div class="stage-info">
+                            <h3>Articles de Cybersécurité Actuels</h3>
+                            <p class="company-name">Flux RSS en temps réel</p>
+                        </div>
+                    </div>
 
-            <div class="stats-grid">
-                <div class="stat-card">
-                    <div class="stat-number">5 414</div>
-                    <div class="stat-label">attaques ransomware mondiales</div>
-                    <div class="source">Check Point, janvier 2025</div>
-                </div>
-                <div class="stat-card">
-                    <div class="stat-number">+40%</div>
-                    <div class="stat-label">vs 2023</div>
-                    <div class="source">Check Point, janvier 2025</div>
-                </div>
-                <div class="stat-card">
-                    <div class="stat-number">195,4M</div>
-                    <div class="stat-label">données compromises</div>
-                    <div class="source">Comparitech, janvier 2025</div>
-                </div>
-                <div class="stat-card">
-                    <div class="stat-number">74%</div>
-                    <div class="stat-label">entreprises françaises touchées</div>
-                    <div class="source">Sophos, avril 2024</div>
-                </div>
-                <div class="stat-card">
-                    <div class="stat-number">4,88 M$</div>
-                    <div class="stat-label">Coût moyen violation</div>
-                    <div class="source">IBM 2024</div>
-                </div>
-                <div class="stat-card">
-                    <div class="stat-number">95</div>
-                    <div class="stat-label">groupes ransomware actifs</div>
-                    <div class="source">Check Point, janvier 2025</div>
-                </div>
-            </div>
-        </div>
-
-        <!-- Widget RSS Cybersécurité -->
-        <div class="veille-section" id="rss-widget-section">
-            <h3 class="veille-section-title">
-                <i class="fas fa-rss"></i>
-                Derniers Articles en Temps Réel
-            </h3>
-            <div class="rss-source-tabs">
-                <button class="rss-source-btn active" data-source="all">Tous</button>
-                <button class="rss-source-btn" data-source="bleeping">Bleeping Computer</button>
-                <button class="rss-source-btn" data-source="krebs">KrebsOnSecurity</button>
-                <button class="rss-source-btn" data-source="darkreading">Dark Reading</button>
-            </div>
-            <div id="rss-container" class="rss-container">
-                <div class="rss-loading-state">
-                    <div class="rss-spinner"></div>
-                    <p>Chargement des articles cybersécurité...</p>
+                    <div class="rss-source-tabs">
+                        <button class="rss-source-btn active" data-source="all">Tous</button>
+                        <button class="rss-source-btn" data-source="bleeping">Bleeping Computer</button>
+                        <button class="rss-source-btn" data-source="krebs">Krebs On Security</button>
+                        <button class="rss-source-btn" data-source="darkreading">Dark Reading</button>
+                    </div>
+                    
+                    <div id="rss-container" class="rss-container">
+                        <div class="rss-loading-state">
+                            <div class="rss-spinner"></div>
+                            <p>Chargement des articles cybersécurité...</p>
+                        </div>
+                    </div>
                 </div>
             </div>
         </div>
@@ -3510,25 +3397,6 @@ navLinks.forEach(link => {
 
 
 
-
-
-    <!-- Section Contact -->
-    <!DOCTYPE html>
-<html lang="fr">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Fatou NDIAYE | Portfolio BTS SIO SLAM</title>
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
-    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="styles.css">
-</head>
-<body>
-    <!-- Votre navigation et autres sections ici -->
-
-
-
-    
     <!-- Section Contact -->
     <section id="contact" class="section bg-dark">
         <div class="section-header">
@@ -3578,7 +3446,7 @@ navLinks.forEach(link => {
                     </div>
                     <div class="contact-details">
                         <h3>GitHub</h3>
-                        <a href="https://github.com/fatoundiaye2000" target="_blank">github.com/fatoundiaye</a>
+                        <a href="https://github.com/fatoundiaye2000" target="_blank">github.com/fatoundiaye2000</a>
                     </div>
                 </div>
             </div>
